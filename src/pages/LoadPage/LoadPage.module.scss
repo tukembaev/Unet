@@ -1,0 +1,345 @@
+.wrapper {
+  border-radius: 6px;
+  background-color: #fff;
+  min-height: 800px;
+  max-height: 810px;
+  overflow: auto;
+}
+.wrapper::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.wrapper::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(255, 255, 255);
+  border-radius: 6px;
+}
+
+/* Handle */
+.wrapper::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.607);
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+.wrapper::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.607);
+}
+.menu__wrapper {
+  margin-bottom: 20px;
+}
+
+.titile__wrapper {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.title {
+  padding: 20px;
+  color: black;
+  font-size: 22px;
+  font-weight: 300;
+  margin-right: 20px;
+  border: none;
+  background: transparent;
+
+  font-family: "Nunito", sans-serif;
+  option {
+    color: black;
+  }
+}
+.some_custom_class2 {
+  background-image: url("../../assets/img/air.jpg") !important;
+  transition: all 0.5s ease-in-out !important;
+}
+.some_custom_overlay_class2 {
+  transition: all 1s ease-in-out !important;
+}
+.discription_input {
+  background: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  color: #000;
+  padding: 8px 16px;
+  font-family: "Nunito", sans-serif;
+  resize: none;
+  max-width: 400px;
+}
+.btn_pin {
+  padding: 10px 15px;
+  background: #43444a;
+  border: none;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgb(0 0 0 / 68%);
+  }
+}
+.btn_pin_close {
+  padding: 10px 15px;
+
+  background: rgba(219, 32, 32, 0.64);
+  border: none;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(219, 32, 32, 0.26);
+  }
+}
+
+
+.table__row{
+  align-items: flex-start;
+  -webkit-column-gap: 20px;
+  column-gap: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.kpi_wrapper {
+  background: #fff;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 6px;
+}
+.kpi_head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 15px;
+}
+.kpi_title {
+  display: flex;
+  column-gap: 20px;
+  h1 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  button {
+    padding: 10px 15px;
+    height: 42px;
+    min-width: 100px;
+    background: #43444a;
+    border: none;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+    float: right;
+    &:hover {
+      cursor: pointer;
+      background: rgba(44, 44, 44, 0.68);
+    }
+  }
+}
+.kpi_score {
+  h3 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+.kpi_body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.kpi {
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  border-radius: 6px;
+  color: black;
+  width: 100%;
+}
+
+.kpi__body {
+  padding: 15px;
+}
+.table__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  column-gap: 20px;
+  cursor: pointer;
+}
+.table__body .table__row {
+  border-top: 1px solid #c8cbd2;
+}
+.head__item {
+  width: 200px;
+  p {
+    text-align: left;
+    padding: 16px 24px 16px 24px;
+  }
+}
+.head__name {
+  width: 320px;
+  p {
+    text-align: left;
+    padding: 16px 24px 16px 0;
+  }
+}
+.body__item {
+  width: 200px;
+  align-self: flex-start;
+  p {
+    text-align: left;
+    padding: 16px 24px 16px 24px;
+  }
+}
+.body__name {
+  width: 320px;
+  p {
+    text-align: left;
+    padding: 16px 24px 16px 0;
+  }
+}
+.kpi__person {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.kpi__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.kpi__item {
+  border-radius: 6px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+.item__header {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+  }
+  span {
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+  }
+}
+.item__body {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.item__footer {
+  padding: 15px;
+  span {
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+  }
+}
+.size {
+  width: 30px;
+  height: 30px;
+  border-radius: 45%;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+  }
+}
+.divider {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+}
+// departments
+.departments {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 0 20px;
+  button {
+    padding: 10px 15px;
+    height: 42px;
+    width: 100px;
+    background: #43444a;
+    border: none;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+    float: right;
+    &:hover {
+      cursor: pointer;
+      background: rgba(44, 44, 44, 0.68);
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .item__header {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .kpi_head {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .kpi_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+  .kpi_score {
+    h3 {
+      padding: 0;
+    }
+  }
+  .kpi {
+    overflow-x: auto;
+  }
+  .kpi__body {
+    width: 1000px;
+  }
+}
+.no_publick {
+  font-size: 16px;
+  padding: 10px 15px;
+}

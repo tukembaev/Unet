@@ -1,0 +1,75 @@
+/* Ваши стили для компонента календаря */
+.day {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    margin: 1px;
+    background-color: #fff; /* Фоновый цвет по умолчанию */
+    padding: 26px;
+    color: rgb(51, 42, 42);
+  }
+  
+  .weekend {
+    background-color: rgba(255, 255, 0, 0.808) !important;
+    color: black !important; 
+  }
+  .eventDay {
+    background-color: rgb(0, 0, 0); 
+    /* Другие стили для дней с событиями */
+  }
+  
+  .event {
+    font-weight: bold;
+  }
+
+.eventDay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+
+    background-color: white;
+  }
+  
+  .titleOfEvent[title]:hover::task {
+    content: attr(title);
+    position: absolute;
+    background-color: white; /* Цвет фона */
+    color: black; /* Цвет текста */
+    padding: 10px; /* Отступ вокруг текста */
+    border-radius: 4px; /* Закругление углов */
+    
+    z-index: 1; /* Поднять над содержимым */
+    /* Другие стили по вашему выбору */
+  }
+  
+  .eventStart {
+    background-color: red; /* Цвет для дня начала события */
+  }
+  
+  .eventEnd {
+    background-color: #00ff0d; /* Цвет для дня окончания события */
+  }
+  
+  .highlightedDay {
+    background-color: #009708; /* Цвет для закрашенных дней */
+    color: #fff; /* Установите цвет шрифта, чтобы он был виден на фоне */
+  
+  }
+  
+  .rangeDay {
+    background-color: #e57c7c; /* Цвет для дней в диапазоне */
+    color: #e9e5e5; /* Установите цвет шрифта, чтобы он был виден на фоне */
+  
+  }
+  .rangeDay1 {
+    background-color: #1505a2; /* Цвет для дней в диапазоне */
+    color: #e9e5e5; /* Установите цвет шрифта, чтобы он был виден на фоне */
+  
+  }
+  

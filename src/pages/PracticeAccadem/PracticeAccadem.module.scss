@@ -1,0 +1,88 @@
+
+.accadem__wrapper{
+    padding: 20px;
+    box-shadow: inset 0 0 5px rgb(255, 255, 255); 
+    border-radius: 6px;
+    background: white;
+}
+.accadem__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accadem__title{
+    color: gray;
+    font-size: 20px;
+    font-weight: 400;
+}
+.accadem__calendar{
+    padding: 20px;
+}
+.calendar__title{
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Roboto" , sans-serif;
+}
+.calendar__head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    column-gap: 2px;
+}
+.head__item{
+    border: 1px solid #E7E8EA;
+    min-width: 120px;
+    padding: 5px 15px;
+    span{
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+.calendar__body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    position: relative;
+}
+.body__track{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+}
+.body__item{
+    border: 1px solid #E7E8EA;  
+    min-width: 120px;
+    height: 100px;
+    box-shadow: inset 0 0 5px rgb(255, 255, 255); 
+    span{
+        padding: 5px;   
+        font-size: 16px;
+        font-weight: 700;
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+    }   
+}
+
+// form 
+.accadem__form{
+    align-self: flex-start;
+    
+}
+.form__body{
+    h3{
+        padding:10px 0;   
+        font-size: 16px;
+        font-weight: 700;
+        color: black;
+        text-transform: uppercase;
+    }
+}

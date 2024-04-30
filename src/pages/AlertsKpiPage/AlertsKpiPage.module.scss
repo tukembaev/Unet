@@ -1,0 +1,262 @@
+.wrapper {
+  width: 100%;
+
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.btn_submit {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn1 {
+  background: #43444A;
+  padding: 5px 10px;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  transition: 0.3s;
+  margin-left: 30px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #000000;
+  }
+}
+
+.publick {
+  // border: 1px solid rgb(86, 84, 84);
+  // border-radius: 6px;
+}
+.publick__head {
+  padding: 15px;
+  border-bottom: 1px solid #b3c3cb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.publick__body {
+  padding: 15px;
+  border-bottom: 1px solid #b3c3cb;
+}
+.publick__body__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.publick__foot {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+}
+.card_body_more {
+  border-top: 1px solid #b3c3cb;
+
+  background-color: #ebebeb;
+  padding: 10px;
+}
+.card_footer_members {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.size {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+}
+.size2 {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  border-radius: 45%;
+  object-fit: cover;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.5);
+    transition: all 0.3s ease-in-out;
+  }
+}
+.titile__wrapper {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.size {
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.all_checks {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.btns_rightside {
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+  bottom: 10px;
+}
+
+.btn3 {
+  margin-top: 20px;
+  border-radius: 6px;
+  font-family: "Nunito", sans-serif;
+  color: #535b69;
+
+  background: transparent;
+  margin-left: 20px;
+
+  &:hover {
+    background: #cfd4d8;
+  }
+}
+
+.btn4 {
+  margin-top: 20px;
+  margin-left: 20px;
+
+  background: rgba(219, 32, 32, 0.64);
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(219, 32, 32, 0.26);
+  }
+}
+
+.btn_pin {
+  margin-top: 15px;
+  background: #43444a;
+  
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.568);
+  }
+}
+
+.discription_input {
+  border: 0.5px solid gray;
+  border-radius: 6px;
+  outline: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  color: #000;
+  padding: 10px;
+
+  margin: 10px 5px;
+  font-family: "Nunito", sans-serif;
+  &:focus-visible {
+    outline: none;
+  }
+}
+.btn_pin_close{
+  margin-left: 16px;
+  margin-right: 9px;
+  margin-top: 13px;
+  background: rgb(177 0 0);
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(219, 32, 32, 0.781);
+  }
+}
+
+.container__wrapper {
+  padding: 15px;
+}
+.change__box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  padding-bottom: 10px;
+  grid-gap: 20px;
+}
+.change__item {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.change__title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.discription_input {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  color: #000;
+  padding: 10px 16px;
+  resize: none;
+  font-family: "Nunito", sans-serif;
+  &:focus-visible {
+    outline: none;
+  }
+  min-width: 200px;
+}
+.publick__btn {
+  background: #43444a;
+  border: none;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  padding: 0 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  padding: 5px 10px;
+  &:hover {
+    cursor: pointer;
+    background: rgb(0 0 0 / 68%);
+  }
+}

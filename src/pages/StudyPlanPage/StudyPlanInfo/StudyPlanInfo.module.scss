@@ -1,0 +1,771 @@
+.study_plan_info__wrapper {
+  margin-bottom: 20px;
+
+  border-radius: 6px;
+  background-color: #f6f8f9;
+  gap: 10px;
+  min-height: 800px;
+}
+
+.title {
+  color: #6e7c87;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 10px;
+}
+.title2::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.title2::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 6px;
+}
+
+/* Handle */
+.title2::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.607);
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+.title2::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.941);
+}
+.title2 {
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  overflow-x: auto;
+  button {
+    background: #43444a;
+    border: none;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+    min-width: 100px;
+
+    &:hover {
+      cursor: pointer;
+      background: rgba(44, 44, 44, 0.68);
+    }
+  }
+}
+.study_plan_info__header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  button {
+    background: #43444a;
+    border: none;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+    min-width: 130px;
+    max-height: 45px;
+
+    &:hover {
+      cursor: pointer;
+      background: rgba(44, 44, 44, 0.68);
+    }
+  }
+}
+.study_plan_info__header2 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 5px;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.24);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+  button {
+    background: #43444a;
+    border: none;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+    min-width: 130px;
+    max-height: 45px;
+    
+    &:hover {
+      cursor: pointer;
+      background: rgba(44, 44, 44, 0.68);
+    }
+  }
+}
+.semester_amount{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p{
+
+    color: rgb(10, 10, 10);
+    text-transform: none;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+}
+.input_type3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.decline_form {
+  border-radius: 6px;
+
+  .item_flex {
+    display: flex;
+    gap: 20px;
+  }
+
+  .discription_input {
+    background: #ffffff;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    color: #000;
+    padding: 10px 16px;
+    font-family: "Nunito", sans-serif;
+    resize: none;
+  }
+}
+.decline_form {
+  textarea {
+    margin-top: 15px;
+  }
+}
+.study_plan_info__body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  overflow-x: auto;
+}
+
+.study_table {
+  padding: 10px 0;
+  overflow-x: auto;
+  &::-webkit-scrollbar {
+    height: 12px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(132, 129, 129, 0.5);
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgb(242, 234, 234);
+  }
+}
+
+.table__wrapper {
+  border-radius: 6px;
+  width: 100%;
+  border-spacing: 0;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  backdrop-filter: blur(10px);
+  min-width: 1200px;
+  thead th span {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.table__head .table__row {
+  background: white;
+  width: 100%;
+}
+
+.table__head .table__item {
+  text-align: left;
+  padding: 5px 10px;
+  max-width: 250px;
+  border: 1px solid #eaecf0;
+}
+
+.table__head .table__item .table__title{
+  font-size: 14px;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+.table__body {
+  height: 100px;
+}
+.table__body .table__item {
+  text-align: left;
+  padding: 5px;
+  max-width: 250px;
+  background:white;
+  border: 1px solid #eaecf0;  
+}
+.table__body .table__item .table__title{
+  font-size: 12px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.table__body .table__item_semester {
+  text-align: center;
+  padding: 5px;
+  max-width: 250px;
+  background:white;
+  border: 1px solid #eaecf0;  
+}
+.table__body .table__item_semester .table__title{
+  font-size: 16px;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.table__body .table__row {
+  border-bottom: 1px solid #eaecf0;
+  border-top: 1px solid #eaecf0;
+}
+
+.table__body tr:hover {
+  cursor: pointer;
+  color: black;
+  font-weight: 400;
+  transition: 0.3s;
+  background-color: white;
+}
+
+.table__body tr {
+  td {
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid #eaecf0;
+  }
+}
+.table__body tr:first-child {
+  td {
+    border-top: unset;
+  }
+}
+.table__body tr:last-child {
+  border-bottom-left-radius: 6px;
+  td {
+    border-top: 1px solid #eaecf0;
+  }
+}
+
+.table__foot .table__row {
+  background: white;
+  width: 100%;
+}
+
+.table__foot .table__item {
+  text-align: left;
+  padding: 5px;
+  max-width: 250px;
+  border: 1px solid #eaecf0;
+}
+
+.table__foot .table__item .table__title{
+  font-size: 14px;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+
+.size {
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.titile__wrapper {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.semester_btns{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+
+}
+.study_plan_info__card {
+  background-color: #fff;
+  padding: 24px;
+  max-width: 500px;
+  position: relative;
+  border-radius: 6px;
+  .card_header {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 15px;
+
+    p {
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+    }
+    .count_users {
+      position: absolute;
+      top: 2px;
+      left: 400px;
+      height: 26px;
+      font-size: 14px;
+      border-radius: 15px;
+      background-color: #9754d641;
+      padding: 4px 8px;
+      font-weight: 600;
+      margin-top: 8px;
+    }
+  }
+
+  .card_footer {
+    display: flex;
+    gap: 80px;
+
+    p {
+      font-size: 18px;
+      font-weight: 500;
+      padding-top: 2px;
+    }
+
+    button {
+      background: #43444a;
+      border: none;
+      color: white;
+      text-transform: none;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+      font-size: 12px;
+      border-radius: 6px;
+      transition: 0.3s;
+      min-width: 100px;
+
+      &:hover {
+        cursor: pointer;
+        background: rgba(44, 44, 44, 0.68);
+      }
+    }
+  }
+}
+.user_card {
+  display: flex;
+  gap: 15px;
+  padding: 5px 15px;
+  background: rgba(152, 152, 152, 0.5);
+  cursor: pointer;
+  backdrop-filter: blur(12.5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 6px;
+}
+.control_btns {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    img {
+      object-fit: cover;
+    }
+  }
+}
+
+.edit_box {
+}
+///  dewdw
+.edit_input {
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+  background: white;
+  border: 3px solid  rgb(150 159 161 / 52%);
+  border-radius: 4px;
+  outline: none;
+  resize: none;
+}
+.edit_box_number {
+min-width: 80px;
+}
+.edit_input_number {
+  width: 100%;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: 400;
+  color: #000000;
+  background: white;
+  border: 3px solid  rgba(150, 159, 161, 0.52);
+  border-radius: 4px;
+  outline: none;
+  resize: none;
+}
+
+// pin code
+.btn_pin_close {
+  background: rgb(177 0 0);
+  margin-left: 16px;
+  margin-right: 10px;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(219, 32, 32, 0.781);
+  }
+}
+
+.btn_pin {
+  margin-top: 15px;
+  background: #43444a;
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.568);
+  }
+}
+.btn_pin_close2{
+  // margin-left: 15px;
+  margin-top: 13px;
+  margin-right: 10px;
+  background: rgb(177 0 0);
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(219, 32, 32, 0.781);
+  }
+}
+.btn_pin2{
+  margin-top: 15px;
+  background: #43444a;
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.568);
+  }
+}
+
+
+// allSemesters
+.all_semesters{
+  overflow-x: auto;
+  &::-webkit-scrollbar {
+    height: 12px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(132, 129, 129, 0.5);
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgb(242, 234, 234);
+  }
+}
+.all_semesters_table{
+  min-width: 1200px;
+}
+.print_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+  }
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
+.all_semesters_content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  background: white;
+}
+.all_semester_report {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 10px 15px;
+}
+.report_flex {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.сonfirming_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+}
+.сonfirming{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  column-gap: 10px;
+}
+.content_child {
+  border-bottom: 1px solid #eaecf0;
+  padding: 10px 0px;
+}
+.content_child:last-child {
+  border-top: 1px solid #eaecf0;
+}
+.content_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 20px;
+  row-gap: 5px;
+}
+
+.all_semester_report {
+  background-color: #fff;
+  padding: 10px 0;
+}
+.report_title {
+  font-size: 20px;
+  font-weight: 400;
+}
+.сoordinating_wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  p{
+    align-self: flex-start;
+  }
+}
+.сoordinating_parent{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3 , 33%);
+  padding: 10px;
+  grid-row-gap: 20px;
+}
+.сoordinating_child{
+  h2{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  p{
+    font-size: 16px;
+  }
+  h3{
+    font-size: 14px;
+  }
+}
+
+// plus
+
+.add_box {
+padding: 0 10px;
+button{
+  border: none;
+  padding: 5px;
+  background-color: #f6f8f9;
+  border-radius: 100%;
+  cursor: pointer;
+  img{
+    object-fit: cover;
+  }
+}
+}
+
+.add_box2{
+  button{
+    border: none;
+    background-color: #f6f8f9;
+    border-radius: 100%;
+    cursor: pointer;
+    img{
+      object-fit: cover;
+    }
+  }
+}
+
+// dicipline post
+.dicipline_box{
+display: flex;
+}
+.dicipline_input {
+  font-size: 12px;
+  padding: 5px;
+  font-weight: 400;
+  color: #000000;
+  background: white;
+  border: 3px solid  rgb(150 159 161 / 52%);
+  border-radius: 4px;
+  outline: none;
+  resize: none;
+}
+.dicipline_box_number {
+  max-width: 100px;
+  min-width: 80px;
+  display: flex;
+}
+.dicipline_input_number {
+  width: 100%;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: 400;
+  color: #000000;
+  background: white;
+  border: 3px solid  rgb(150 159 161 / 52%);
+  border-radius: 4px;
+  outline: none;
+  resize: none;
+}
+.dicipline_readOnly{
+  width: 100%;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: 400;
+  color: #000000;
+  background: rgb(150 159 161 / 52%);
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+.accept_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+}
+
+.custom-select{
+  padding: 0;
+}
+
+// select-search
+.dropdown a:hover {background-color: #ddd;}
+.dropdown_content {
+  position: absolute;
+  background-color: #f6f6f6;
+  overflow: auto;
+}
+.dropdown_content a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+.show {display: block !important;}
+
+.dropdown_values{
+    display: none;
+}
+// print
+
+@media print {
+ .study_table{
+  overflow:visible ;
+ }
+ .all_semesters{
+  overflow: visible;
+ }
+}
+
+.confirm_title{
+  padding: 0;
+}
+
+//water_mark
+@media print {    
+
+  .water_mark{
+    position: fixed;
+    bottom: 0px;
+    padding: 0 10px;
+    opacity: 0.4;
+    color: black;
+    height: 40px;
+    max-width: 99%;
+    width: 100%;
+  }
+  @page{
+    size: A4 landscape;
+  }
+  .table__body{
+    height: auto;
+  }
+}
+
+// empty_semester
+
+.empty_semester{
+  padding:  0 10px ;
+  background-color: #f6f8f9;
+}

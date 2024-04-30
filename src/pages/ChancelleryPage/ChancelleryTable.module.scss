@@ -1,0 +1,69 @@
+$mini-phone: 320px;
+$phone: 480px;
+$table: 768px;
+$netbook:1024px;
+$smalldisplay:1280px;
+
+
+.chanc_table_title{
+  color: white;
+  padding: 20px 0px;
+}
+
+.table__wrapper {
+  background-color: #fff;
+  border-radius: 6px;
+  width: 100%;
+  border-spacing: 0;
+ 
+}
+.table__row{
+  cursor: pointer;
+}
+.table__item {
+  text-align: left;
+  padding: 13px 13px 13px 8px;
+  border-bottom: 2px #eef2f4 solid;
+}
+
+
+.table__body tr {
+    &:hover {
+        background-color: #EFF5F7;
+    }
+    
+}
+.table__body tr:last-child {
+  td {
+    border:none;
+  }
+}
+.table__title {
+  color: #535c69;
+  font-size: 14px;
+}
+
+
+.titile__wrapper {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.title {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 300;
+  margin-right: 20px; 
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: $phone) {
+  .table__title {
+   
+    font-size: 11px;
+  }
+  
+}

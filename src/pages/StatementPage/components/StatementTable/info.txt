@@ -1,0 +1,12 @@
+    <option value="Все">Все</option>
+      <option value="Рапорт">Рапорт</option>
+      <option value="Заявление">Заявления</option>
+      <option value="Документ">Документ</option>
+      <option value="Запрос">Запрос</option>
+      <option value="Отчёт">Отчёт</option>
+      <option value="Жалоба">Жалоба</option>
+      <option value="Предложение">Предложение</option>
+      <option value="Письмо">Письмо</option>
+      <option value="Договор">Договор</option>
+      <option value="Заявка">Заявка</option>
+      <option value="Обращение">Обращение</option>

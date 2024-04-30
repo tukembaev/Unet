@@ -1,0 +1,3761 @@
+
+@font-face {
+     font-family: elementskit;
+     src: url(./elementskit.woff) format("woff");
+     font-weight: 400;
+     font-style: normal;
+     font-display: swap
+ }
+ 
+ .ekit-wid-con .fasicon,.ekit-wid-con .icon,.ekit-wid-con .icon::task,.fasicon,.icon,.icon::task {
+     font-family: elementskit!important;
+     speak: none;
+     font-style: normal;
+     font-weight: 400;
+     font-variant: normal;
+     text-transform: none;
+     line-height: 1;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale
+ }
+ 
+ .ekit-wid-con .fasicon.icon-home::task,.ekit-wid-con .icon.icon-home::task,.icon.icon-home::task {
+     content: "\e800"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-advanced-slider::task,.ekit-wid-con .icon.icon-advanced-slider::task,.icon.icon-advanced-slider::task {
+     content: "\e9c8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-image-box::task,.ekit-wid-con .icon.icon-image-box::task,.icon.icon-image-box::task {
+     content: "\ebd1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-image-swap::task,.ekit-wid-con .icon.icon-image-swap::task,.icon.icon-image-swap::task {
+     content: "\eba4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-apartment1::task,.ekit-wid-con .icon.icon-apartment1::task,.icon.icon-apartment1::task {
+     content: "\e801"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pencil::task,.ekit-wid-con .icon.icon-pencil::task,.icon.icon-pencil::task {
+     content: "\e802"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-magic-wand::task,.ekit-wid-con .icon.icon-magic-wand::task,.icon.icon-magic-wand::task {
+     content: "\e803"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-drop::task,.ekit-wid-con .icon.icon-drop::task,.icon.icon-drop::task {
+     content: "\e804"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-lighter::task,.ekit-wid-con .icon.icon-lighter::task,.icon.icon-lighter::task {
+     content: "\e805"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-poop::task,.ekit-wid-con .icon.icon-poop::task,.icon.icon-poop::task {
+     content: "\e806"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-sun::task,.ekit-wid-con .icon.icon-sun::task,.icon.icon-sun::task {
+     content: "\e807"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-moon::task,.ekit-wid-con .icon.icon-moon::task,.icon.icon-moon::task {
+     content: "\e808"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cloud1::task,.ekit-wid-con .icon.icon-cloud1::task,.icon.icon-cloud1::task {
+     content: "\e809"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cloud-upload::task,.ekit-wid-con .icon.icon-cloud-upload::task,.icon.icon-cloud-upload::task {
+     content: "\e80a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cloud-download::task,.ekit-wid-con .icon.icon-cloud-download::task,.icon.icon-cloud-download::task {
+     content: "\e80b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cloud-sync::task,.ekit-wid-con .icon.icon-cloud-sync::task,.icon.icon-cloud-sync::task {
+     content: "\e80c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cloud-check::task,.ekit-wid-con .icon.icon-cloud-check::task,.icon.icon-cloud-check::task {
+     content: "\e80d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-database1::task,.ekit-wid-con .icon.icon-database1::task,.icon.icon-database1::task {
+     content: "\e80e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-lock::task,.ekit-wid-con .icon.icon-lock::task,.icon.icon-lock::task {
+     content: "\e80f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cog::task,.ekit-wid-con .icon.icon-cog::task,.icon.icon-cog::task {
+     content: "\e810"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-trash::task,.ekit-wid-con .icon.icon-trash::task,.icon.icon-trash::task {
+     content: "\e811"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-dice::task,.ekit-wid-con .icon.icon-dice::task,.icon.icon-dice::task {
+     content: "\e812"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-heart1::task,.ekit-wid-con .icon.icon-heart1::task,.icon.icon-heart1::task {
+     content: "\e813"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-star1::task,.ekit-wid-con .icon.icon-star1::task,.icon.icon-star1::task {
+     content: "\e814"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-star-half::task,.ekit-wid-con .icon.icon-star-half::task,.icon.icon-star-half::task {
+     content: "\e815"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-star-empty::task,.ekit-wid-con .icon.icon-star-empty::task,.icon.icon-star-empty::task {
+     content: "\e816"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-flag::task,.ekit-wid-con .icon.icon-flag::task,.icon.icon-flag::task {
+     content: "\e817"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-envelope1::task,.ekit-wid-con .icon.icon-envelope1::task,.icon.icon-envelope1::task {
+     content: "\e818"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-paperclip::task,.ekit-wid-con .icon.icon-paperclip::task,.icon.icon-paperclip::task {
+     content: "\e819"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-inbox::task,.ekit-wid-con .icon.icon-inbox::task,.icon.icon-inbox::task {
+     content: "\e81a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-eye::task,.ekit-wid-con .icon.icon-eye::task,.icon.icon-eye::task {
+     content: "\e81b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-printer::task,.ekit-wid-con .icon.icon-printer::task,.icon.icon-printer::task {
+     content: "\e81c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-file-empty::task,.ekit-wid-con .icon.icon-file-empty::task,.icon.icon-file-empty::task {
+     content: "\e81d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-file-add::task,.ekit-wid-con .icon.icon-file-add::task,.icon.icon-file-add::task {
+     content: "\e81e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-enter::task,.ekit-wid-con .icon.icon-enter::task,.icon.icon-enter::task {
+     content: "\e81f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-exit::task,.ekit-wid-con .icon.icon-exit::task,.icon.icon-exit::task {
+     content: "\e820"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-graduation-hat::task,.ekit-wid-con .icon.icon-graduation-hat::task,.icon.icon-graduation-hat::task {
+     content: "\e821"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-license::task,.ekit-wid-con .icon.icon-license::task,.icon.icon-license::task {
+     content: "\e822"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-music-note::task,.ekit-wid-con .icon.icon-music-note::task,.icon.icon-music-note::task {
+     content: "\e823"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-film-play::task,.ekit-wid-con .icon.icon-film-play::task,.icon.icon-film-play::task {
+     content: "\e824"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-camera-video::task,.ekit-wid-con .icon.icon-camera-video::task,.icon.icon-camera-video::task {
+     content: "\e825"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-camera::task,.ekit-wid-con .icon.icon-camera::task,.icon.icon-camera::task {
+     content: "\e826"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-picture::task,.ekit-wid-con .icon.icon-picture::task,.icon.icon-picture::task {
+     content: "\e827"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-book::task,.ekit-wid-con .icon.icon-book::task,.icon.icon-book::task {
+     content: "\e828"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bookmark::task,.ekit-wid-con .icon.icon-bookmark::task,.icon.icon-bookmark::task {
+     content: "\e829"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-user::task,.ekit-wid-con .icon.icon-user::task,.icon.icon-user::task {
+     content: "\e82a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-users::task,.ekit-wid-con .icon.icon-users::task,.icon.icon-users::task {
+     content: "\e82b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shirt::task,.ekit-wid-con .icon.icon-shirt::task,.icon.icon-shirt::task {
+     content: "\e82c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-store::task,.ekit-wid-con .icon.icon-store::task,.icon.icon-store::task {
+     content: "\e82d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cart2::task,.ekit-wid-con .icon.icon-cart2::task,.icon.icon-cart2::task {
+     content: "\e82e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-tag::task,.ekit-wid-con .icon.icon-tag::task,.icon.icon-tag::task {
+     content: "\e82f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-phone-handset::task,.ekit-wid-con .icon.icon-phone-handset::task,.icon.icon-phone-handset::task {
+     content: "\e830"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-phone::task,.ekit-wid-con .icon.icon-phone::task,.icon.icon-phone::task {
+     content: "\e831"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pushpin::task,.ekit-wid-con .icon.icon-pushpin::task,.icon.icon-pushpin::task {
+     content: "\e832"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-map-marker::task,.ekit-wid-con .icon.icon-map-marker::task,.icon.icon-map-marker::task {
+     content: "\e833"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-map::task,.ekit-wid-con .icon.icon-map::task,.icon.icon-map::task {
+     content: "\e834"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-location::task,.ekit-wid-con .icon.icon-location::task,.icon.icon-location::task {
+     content: "\e835"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-calendar-full::task,.ekit-wid-con .icon.icon-calendar-full::task,.icon.icon-calendar-full::task {
+     /* content:"\e836"; */
+ }
+ 
+ .ekit-wid-con .fasicon.icon-keyboard::task,.ekit-wid-con .icon.icon-keyboard::task,.icon.icon-keyboard::task {
+     content: "\e837"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-spell-check::task,.ekit-wid-con .icon.icon-spell-check::task,.icon.icon-spell-check::task {
+     content: "\e838"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-screen::task,.ekit-wid-con .icon.icon-screen::task,.icon.icon-screen::task {
+     content: "\e839"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-smartphone::task,.ekit-wid-con .icon.icon-smartphone::task,.icon.icon-smartphone::task {
+     content: "\e83a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-tablet::task,.ekit-wid-con .icon.icon-tablet::task,.icon.icon-tablet::task {
+     content: "\e83b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-laptop::task,.ekit-wid-con .icon.icon-laptop::task,.icon.icon-laptop::task {
+     content: "\e83c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-laptop-phone::task,.ekit-wid-con .icon.icon-laptop-phone::task,.icon.icon-laptop-phone::task {
+     content: "\e83d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-power-switch::task,.ekit-wid-con .icon.icon-power-switch::task,.icon.icon-power-switch::task {
+     content: "\e83e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bubble::task,.ekit-wid-con .icon.icon-bubble::task,.icon.icon-bubble::task {
+     content: "\e83f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-heart-pulse::task,.ekit-wid-con .icon.icon-heart-pulse::task,.icon.icon-heart-pulse::task {
+     content: "\e840"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-construction::task,.ekit-wid-con .icon.icon-construction::task,.icon.icon-construction::task {
+     content: "\e841"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pie-chart::task,.ekit-wid-con .icon.icon-pie-chart::task,.icon.icon-pie-chart::task {
+     content: "\e842"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-chart-bars::task,.ekit-wid-con .icon.icon-chart-bars::task,.icon.icon-chart-bars::task {
+     content: "\e843"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-gift1::task,.ekit-wid-con .icon.icon-gift1::task,.icon.icon-gift1::task {
+     content: "\e844"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-diamond1::task,.ekit-wid-con .icon.icon-diamond1::task,.icon.icon-diamond1::task {
+     content: "\e845"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-dinner::task,.ekit-wid-con .icon.icon-dinner::task,.icon.icon-dinner::task {
+     content: "\e847"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-coffee-cup::task,.ekit-wid-con .icon.icon-coffee-cup::task,.icon.icon-coffee-cup::task {
+     content: "\e848"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-leaf::task,.ekit-wid-con .icon.icon-leaf::task,.icon.icon-leaf::task {
+     content: "\e849"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-paw::task,.ekit-wid-con .icon.icon-paw::task,.icon.icon-paw::task {
+     content: "\e84a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-rocket::task,.ekit-wid-con .icon.icon-rocket::task,.icon.icon-rocket::task {
+     content: "\e84b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-briefcase::task,.ekit-wid-con .icon.icon-briefcase::task,.icon.icon-briefcase::task {
+     content: "\e84c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bus::task,.ekit-wid-con .icon.icon-bus::task,.icon.icon-bus::task {
+     content: "\e84d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-car1::task,.ekit-wid-con .icon.icon-car1::task,.icon.icon-car1::task {
+     content: "\e84e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-train::task,.ekit-wid-con .icon.icon-train::task,.icon.icon-train::task {
+     content: "\e84f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bicycle::task,.ekit-wid-con .icon.icon-bicycle::task,.icon.icon-bicycle::task {
+     content: "\e850"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-wheelchair::task,.ekit-wid-con .icon.icon-wheelchair::task,.icon.icon-wheelchair::task {
+     content: "\e851"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-select::task,.ekit-wid-con .icon.icon-select::task,.icon.icon-select::task {
+     content: "\e852"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-earth::task,.ekit-wid-con .icon.icon-earth::task,.icon.icon-earth::task {
+     content: "\e853"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-smile::task,.ekit-wid-con .icon.icon-smile::task,.icon.icon-smile::task {
+     content: "\e854"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-sad::task,.ekit-wid-con .icon.icon-sad::task,.icon.icon-sad::task {
+     content: "\e855"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-neutral::task,.ekit-wid-con .icon.icon-neutral::task,.icon.icon-neutral::task {
+     content: "\e856"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-mustache::task,.ekit-wid-con .icon.icon-mustache::task,.icon.icon-mustache::task {
+     content: "\e857"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-alarm::task,.ekit-wid-con .icon.icon-alarm::task,.icon.icon-alarm::task {
+     content: "\e858"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bullhorn::task,.ekit-wid-con .icon.icon-bullhorn::task,.icon.icon-bullhorn::task {
+     content: "\e859"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-volume-high::task,.ekit-wid-con .icon.icon-volume-high::task,.icon.icon-volume-high::task {
+     content: "\e85a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-volume-medium::task,.ekit-wid-con .icon.icon-volume-medium::task,.icon.icon-volume-medium::task {
+     content: "\e85b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-volume-low::task,.ekit-wid-con .icon.icon-volume-low::task,.icon.icon-volume-low::task {
+     content: "\e85c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-volume::task,.ekit-wid-con .icon.icon-volume::task,.icon.icon-volume::task {
+     content: "\e85d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-mic::task,.ekit-wid-con .icon.icon-mic::task,.icon.icon-mic::task {
+     content: "\e85e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-hourglass::task,.ekit-wid-con .icon.icon-hourglass::task,.icon.icon-hourglass::task {
+     content: "\e85f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-undo::task,.ekit-wid-con .icon.icon-undo::task,.icon.icon-undo::task {
+     content: "\e860"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-redo::task,.ekit-wid-con .icon.icon-redo::task,.icon.icon-redo::task {
+     content: "\e861"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-sync::task,.ekit-wid-con .icon.icon-sync::task,.icon.icon-sync::task {
+     content: "\e862"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-history::task,.ekit-wid-con .icon.icon-history::task,.icon.icon-history::task {
+     content: "\e863"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-clock1::task,.ekit-wid-con .icon.icon-clock1::task,.icon.icon-clock1::task {
+     content: "\e864"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-download::task,.ekit-wid-con .icon.icon-download::task,.icon.icon-download::task {
+     content: "\e865"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-upload::task,.ekit-wid-con .icon.icon-upload::task,.icon.icon-upload::task {
+     content: "\e866"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-enter-down::task,.ekit-wid-con .icon.icon-enter-down::task,.icon.icon-enter-down::task {
+     content: "\e867"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-exit-up::task,.ekit-wid-con .icon.icon-exit-up::task,.icon.icon-exit-up::task {
+     content: "\e868"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bug::task,.ekit-wid-con .icon.icon-bug::task,.icon.icon-bug::task {
+     content: "\e869"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-code::task,.ekit-wid-con .icon.icon-code::task,.icon.icon-code::task {
+     content: "\e86a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-link::task,.ekit-wid-con .icon.icon-link::task,.icon.icon-link::task {
+     content: "\e86b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-unlink::task,.ekit-wid-con .icon.icon-unlink::task,.icon.icon-unlink::task {
+     content: "\e86c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-thumbs-up::task,.ekit-wid-con .icon.icon-thumbs-up::task,.icon.icon-thumbs-up::task {
+     content: "\e86d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-thumbs-down::task,.ekit-wid-con .icon.icon-thumbs-down::task,.icon.icon-thumbs-down::task {
+     content: "\e86e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-magnifier::task,.ekit-wid-con .icon.icon-magnifier::task,.icon.icon-magnifier::task {
+     content: "\e86f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cross::task,.ekit-wid-con .icon.icon-cross::task,.icon.icon-cross::task {
+     content: "\e870"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-chevron-up::task,.ekit-wid-con .icon.icon-chevron-up::task,.icon.icon-chevron-up::task {
+     content: "\e873"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-chevron-down::task,.ekit-wid-con .icon.icon-chevron-down::task,.icon.icon-chevron-down::task {
+     content: "\e874"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-chevron-left::task,.ekit-wid-con .icon.icon-chevron-left::task,.icon.icon-chevron-left::task {
+     content: "\e875"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-chevron-right::task,.ekit-wid-con .icon.icon-chevron-right::task,.icon.icon-chevron-right::task {
+     content: "\e876"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-arrow-up::task,.ekit-wid-con .icon.icon-arrow-up::task,.icon.icon-arrow-up::task {
+     content: "\e877"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-arrow-down::task,.ekit-wid-con .icon.icon-arrow-down::task,.icon.icon-arrow-down::task {
+     content: "\e878"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-arrow-left::task,.ekit-wid-con .icon.icon-arrow-left::task,.icon.icon-arrow-left::task {
+     content: "\e879"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-arrow-right::task,.ekit-wid-con .icon.icon-arrow-right::task,.icon.icon-arrow-right::task {
+     content: "\e87a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-right-arrow::task,.ekit-wid-con .icon.icon-right-arrow::task,.icon.icon-right-arrow::task {
+     content: "\e9c5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-left-arrow::task,.ekit-wid-con .icon.icon-left-arrow::task,.icon.icon-left-arrow::task {
+     content: "\e94a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-download-arrow::task,.ekit-wid-con .icon.icon-download-arrow::task,.icon.icon-download-arrow::task {
+     content: "\e94b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-up-arrow::task,.ekit-wid-con .icon.icon-up-arrow::task,.icon.icon-up-arrow::task {
+     content: "\e9c3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-arrows::task,.ekit-wid-con .icon.icon-arrows::task,.icon.icon-arrows::task {
+     content: "\e9c4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-double-angle-pointing-to-right::task,.ekit-wid-con .icon.icon-double-angle-pointing-to-right::task,.icon.icon-double-angle-pointing-to-right::task {
+     content: "\e949"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-double-left-chevron::task,.ekit-wid-con .icon.icon-double-left-chevron::task,.icon.icon-double-left-chevron::task {
+     content: "\e948"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-left-arrow2::task,.ekit-wid-con .icon.icon-left-arrow2::task,.icon.icon-left-arrow2::task {
+     content: "\e94c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-right-arrow2::task,.ekit-wid-con .icon.icon-right-arrow2::task,.icon.icon-right-arrow2::task {
+     content: "\e94d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-warning::task,.ekit-wid-con .icon.icon-warning::task,.icon.icon-warning::task {
+     content: "\e87c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-down-arrow1::task,.ekit-wid-con .icon.icon-down-arrow1::task,.icon.icon-down-arrow1::task {
+     content: "\e994"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-up-arrow1::task,.ekit-wid-con .icon.icon-up-arrow1::task,.icon.icon-up-arrow1::task {
+     content: "\e995"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-right-arrow1::task,.ekit-wid-con .icon.icon-right-arrow1::task,.icon.icon-right-arrow1::task {
+     content: "\e876";
+     font-weight: 900
+ }
+ 
+ .ekit-wid-con .fasicon.icon-left-arrows::task,.ekit-wid-con .icon.icon-left-arrows::task,.icon.icon-left-arrows::task {
+     content: "\e997"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-question-circle::task,.ekit-wid-con .icon.icon-question-circle::task,.icon.icon-question-circle::task {
+     content: "\e87d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-menu-circle::task,.ekit-wid-con .icon.icon-menu-circle::task,.icon.icon-menu-circle::task {
+     content: "\e87e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-checkmark-circle::task,.ekit-wid-con .icon.icon-checkmark-circle::task,.icon.icon-checkmark-circle::task {
+     content: "\e87f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cross-circle::task,.ekit-wid-con .icon.icon-cross-circle::task,.icon.icon-cross-circle::task {
+     content: "\e880"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-plus-circle::task,.ekit-wid-con .icon.icon-plus-circle::task,.icon.icon-plus-circle::task {
+     content: "\e881"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-move::task,.ekit-wid-con .icon.icon-move::task,.icon.icon-move::task {
+     content: "\e87b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-circle-minus::task,.ekit-wid-con .icon.icon-circle-minus::task,.icon.icon-circle-minus::task {
+     content: "\e882"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-arrow-up-circle::task,.ekit-wid-con .icon.icon-arrow-up-circle::task,.icon.icon-arrow-up-circle::task {
+     content: "\e883"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-arrow-down-circle::task,.ekit-wid-con .icon.icon-arrow-down-circle::task,.icon.icon-arrow-down-circle::task {
+     content: "\e884"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-arrow-left-circle::task,.ekit-wid-con .icon.icon-arrow-left-circle::task,.icon.icon-arrow-left-circle::task {
+     content: "\e885"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-arrow-right-circle::task,.ekit-wid-con .icon.icon-arrow-right-circle::task,.icon.icon-arrow-right-circle::task {
+     content: "\e886"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-chevron-up-circle::task,.ekit-wid-con .icon.icon-chevron-up-circle::task,.icon.icon-chevron-up-circle::task {
+     content: "\e887"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-chevron-down-circle::task,.ekit-wid-con .icon.icon-chevron-down-circle::task,.icon.icon-chevron-down-circle::task {
+     content: "\e888"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-chevron-left-circle::task,.ekit-wid-con .icon.icon-chevron-left-circle::task,.icon.icon-chevron-left-circle::task {
+     content: "\e889"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-chevron-right-circle::task,.ekit-wid-con .icon.icon-chevron-right-circle::task,.icon.icon-chevron-right-circle::task {
+     content: "\e88a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-crop::task,.ekit-wid-con .icon.icon-crop::task,.icon.icon-crop::task {
+     content: "\e88b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-frame-expand::task,.ekit-wid-con .icon.icon-frame-expand::task,.icon.icon-frame-expand::task {
+     content: "\e88c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-frame-contract::task,.ekit-wid-con .icon.icon-frame-contract::task,.icon.icon-frame-contract::task {
+     content: "\e88d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-layers::task,.ekit-wid-con .icon.icon-layers::task,.icon.icon-layers::task {
+     content: "\e88e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-funnel::task,.ekit-wid-con .icon.icon-funnel::task,.icon.icon-funnel::task {
+     content: "\e88f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-text-format::task,.ekit-wid-con .icon.icon-text-format::task,.icon.icon-text-format::task {
+     content: "\e890"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-text-size::task,.ekit-wid-con .icon.icon-text-size::task,.icon.icon-text-size::task {
+     content: "\e892"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bold::task,.ekit-wid-con .icon.icon-bold::task,.icon.icon-bold::task {
+     content: "\e893"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-italic::task,.ekit-wid-con .icon.icon-italic::task,.icon.icon-italic::task {
+     content: "\e894"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-underline::task,.ekit-wid-con .icon.icon-underline::task,.icon.icon-underline::task {
+     content: "\e895"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-strikethrough::task,.ekit-wid-con .icon.icon-strikethrough::task,.icon.icon-strikethrough::task {
+     content: "\e896"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-highlight::task,.ekit-wid-con .icon.icon-highlight::task,.icon.icon-highlight::task {
+     content: "\e897"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-text-align-left::task,.ekit-wid-con .icon.icon-text-align-left::task,.icon.icon-text-align-left::task {
+     content: "\e898"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-text-align-center::task,.ekit-wid-con .icon.icon-text-align-center::task,.icon.icon-text-align-center::task {
+     content: "\e899"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-text-align-right::task,.ekit-wid-con .icon.icon-text-align-right::task,.icon.icon-text-align-right::task {
+     content: "\e89a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-text-align-justify::task,.ekit-wid-con .icon.icon-text-align-justify::task,.icon.icon-text-align-justify::task {
+     content: "\e89b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-line-spacing::task,.ekit-wid-con .icon.icon-line-spacing::task,.icon.icon-line-spacing::task {
+     content: "\e89c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-indent-increase::task,.ekit-wid-con .icon.icon-indent-increase::task,.icon.icon-indent-increase::task {
+     content: "\e89d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-indent-decrease::task,.ekit-wid-con .icon.icon-indent-decrease::task,.icon.icon-indent-decrease::task {
+     content: "\e89e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-page-break::task,.ekit-wid-con .icon.icon-page-break::task,.icon.icon-page-break::task {
+     content: "\e8a2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-hand::task,.ekit-wid-con .icon.icon-hand::task,.icon.icon-hand::task {
+     content: "\e8a5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pointer-up::task,.ekit-wid-con .icon.icon-pointer-up::task,.icon.icon-pointer-up::task {
+     content: "\e8a6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pointer-right::task,.ekit-wid-con .icon.icon-pointer-right::task,.icon.icon-pointer-right::task {
+     content: "\e8a7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pointer-down::task,.ekit-wid-con .icon.icon-pointer-down::task,.icon.icon-pointer-down::task {
+     content: "\e8a8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pointer-left::task,.ekit-wid-con .icon.icon-pointer-left::task,.icon.icon-pointer-left::task {
+     content: "\e8a9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-burger::task,.ekit-wid-con .icon.icon-burger::task,.icon.icon-burger::task {
+     content: "\e94e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cakes::task,.ekit-wid-con .icon.icon-cakes::task,.icon.icon-cakes::task {
+     content: "\e94f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cheese::task,.ekit-wid-con .icon.icon-cheese::task,.icon.icon-cheese::task {
+     content: "\e950"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-drink-glass::task,.ekit-wid-con .icon.icon-drink-glass::task,.icon.icon-drink-glass::task {
+     content: "\e951"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pizza::task,.ekit-wid-con .icon.icon-pizza::task,.icon.icon-pizza::task {
+     content: "\e952"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-vplay::task,.ekit-wid-con .icon.icon-vplay::task,.icon.icon-vplay::task {
+     content: "\e953"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-newsletter::task,.ekit-wid-con .icon.icon-newsletter::task,.icon.icon-newsletter::task {
+     content: "\e954"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-coins-2::task,.ekit-wid-con .icon.icon-coins-2::task,.icon.icon-coins-2::task {
+     content: "\e955"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-commerce-2::task,.ekit-wid-con .icon.icon-commerce-2::task,.icon.icon-commerce-2::task {
+     content: "\e956"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-monitor::task,.ekit-wid-con .icon.icon-monitor::task,.icon.icon-monitor::task {
+     content: "\e957"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-business::task,.ekit-wid-con .icon.icon-business::task,.icon.icon-business::task {
+     content: "\e958"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-graphic-2::task,.ekit-wid-con .icon.icon-graphic-2::task,.icon.icon-graphic-2::task {
+     content: "\e959"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-commerce-1::task,.ekit-wid-con .icon.icon-commerce-1::task,.icon.icon-commerce-1::task {
+     content: "\e95a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-hammer::task,.ekit-wid-con .icon.icon-hammer::task,.icon.icon-hammer::task {
+     content: "\e95b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-justice-1::task,.ekit-wid-con .icon.icon-justice-1::task,.icon.icon-justice-1::task {
+     content: "\e95c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-line::task,.ekit-wid-con .icon.icon-line::task,.icon.icon-line::task {
+     content: "\e95d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-money-3::task,.ekit-wid-con .icon.icon-money-3::task,.icon.icon-money-3::task {
+     content: "\e95e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-commerce::task,.ekit-wid-con .icon.icon-commerce::task,.icon.icon-commerce::task {
+     content: "\e95f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-agenda::task,.ekit-wid-con .icon.icon-agenda::task,.icon.icon-agenda::task {
+     content: "\e960"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-justice::task,.ekit-wid-con .icon.icon-justice::task,.icon.icon-justice::task {
+     content: "\e961"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-technology::task,.ekit-wid-con .icon.icon-technology::task,.icon.icon-technology::task {
+     content: "\e962"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-coins-1::task,.ekit-wid-con .icon.icon-coins-1::task,.icon.icon-coins-1::task {
+     content: "\e963"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bank::task,.ekit-wid-con .icon.icon-bank::task,.icon.icon-bank::task {
+     content: "\e964"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-calculator::task,.ekit-wid-con .icon.icon-calculator::task,.icon.icon-calculator::task {
+     content: "\e965"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-soundcloud::task,.ekit-wid-con .icon.icon-soundcloud::task,.icon.icon-soundcloud::task {
+     content: "\e966"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-chart2::task,.ekit-wid-con .icon.icon-chart2::task,.icon.icon-chart2::task {
+     content: "\e967"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-checked::task,.ekit-wid-con .icon.icon-checked::task,.icon.icon-checked::task {
+     content: "\e968"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-clock11::task,.ekit-wid-con .icon.icon-clock11::task,.icon.icon-clock11::task {
+     content: "\e969"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-comment2::task,.ekit-wid-con .icon.icon-comment2::task,.icon.icon-comment2::task {
+     content: "\e96a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-comments::task,.ekit-wid-con .icon.icon-comments::task,.icon.icon-comments::task {
+     content: "\e96b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-consult::task,.ekit-wid-con .icon.icon-consult::task,.icon.icon-consult::task {
+     content: "\e96c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-consut2::task,.ekit-wid-con .icon.icon-consut2::task,.icon.icon-consut2::task {
+     content: "\e96d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-deal::task,.ekit-wid-con .icon.icon-deal::task,.icon.icon-deal::task {
+     content: "\e96e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-envelope11::task,.ekit-wid-con .icon.icon-envelope11::task,.icon.icon-envelope11::task {
+     content: "\e96f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-folder::task,.ekit-wid-con .icon.icon-folder::task,.icon.icon-folder::task {
+     content: "\e970"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-folder2::task,.ekit-wid-con .icon.icon-folder2::task,.icon.icon-folder2::task {
+     content: "\ea6a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-invest::task,.ekit-wid-con .icon.icon-invest::task,.icon.icon-invest::task {
+     content: "\e971"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-loan::task,.ekit-wid-con .icon.icon-loan::task,.icon.icon-loan::task {
+     content: "\e972"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-menu1::task,.ekit-wid-con .icon.icon-menu1::task,.icon.icon-menu1::task {
+     content: "\e871"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-list1::task,.ekit-wid-con .icon.icon-list1::task,.icon.icon-list1::task {
+     content: "\e872"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-map-marker1::task,.ekit-wid-con .icon.icon-map-marker1::task,.icon.icon-map-marker1::task {
+     content: "\e973"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-mutual-fund::task,.ekit-wid-con .icon.icon-mutual-fund::task,.icon.icon-mutual-fund::task {
+     content: "\e974"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-google-plus::task,.ekit-wid-con .icon.icon-google-plus::task,.icon.icon-google-plus::task {
+     content: "\e975"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-phone1::task,.ekit-wid-con .icon.icon-phone1::task,.icon.icon-phone1::task {
+     content: "\e976"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pie-chart1::task,.ekit-wid-con .icon.icon-pie-chart1::task,.icon.icon-pie-chart1::task {
+     content: "\e977"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-play::task,.ekit-wid-con .icon.icon-play::task,.icon.icon-play::task {
+     content: "\e978"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-savings::task,.ekit-wid-con .icon.icon-savings::task,.icon.icon-savings::task {
+     content: "\e979"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-search2::task,.ekit-wid-con .icon.icon-search2::task,.icon.icon-search2::task {
+     content: "\e97a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-tag1::task,.ekit-wid-con .icon.icon-tag1::task,.icon.icon-tag1::task {
+     content: "\e97b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-tags::task,.ekit-wid-con .icon.icon-tags::task,.icon.icon-tags::task {
+     content: "\e97c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-instagram1::task,.ekit-wid-con .icon.icon-instagram1::task,.icon.icon-instagram1::task {
+     content: "\e97d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-quote::task,.ekit-wid-con .icon.icon-quote::task,.icon.icon-quote::task {
+     content: "\e97e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-arrow-point-to-down::task,.ekit-wid-con .icon.icon-arrow-point-to-down::task,.icon.icon-arrow-point-to-down::task {
+     content: "\e97f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-play-button::task,.ekit-wid-con .icon.icon-play-button::task,.icon.icon-play-button::task {
+     content: "\e980"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-minus::task,.ekit-wid-con .icon.icon-minus::task,.icon.icon-minus::task {
+     content: "\e981"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-plus::task,.ekit-wid-con .icon.icon-plus::task,.icon.icon-plus::task {
+     content: "\e982"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-tick::task,.ekit-wid-con .icon.icon-tick::task,.icon.icon-tick::task {
+     content: "\e983"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-check::task,.ekit-wid-con .icon.icon-check::task,.icon.icon-check::task {
+     content: "\eaaf"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-edit::task,.ekit-wid-con .icon.icon-edit::task,.icon.icon-edit::task {
+     content: "\e984"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-reply::task,.ekit-wid-con .icon.icon-reply::task,.icon.icon-reply::task {
+     content: "\e985"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cogwheel-outline::task,.ekit-wid-con .icon.icon-cogwheel-outline::task,.icon.icon-cogwheel-outline::task {
+     content: "\e986"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-abacus::task,.ekit-wid-con .icon.icon-abacus::task,.icon.icon-abacus::task {
+     content: "\e987"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-abacus1::task,.ekit-wid-con .icon.icon-abacus1::task,.icon.icon-abacus1::task {
+     content: "\e988"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-agenda1::task,.ekit-wid-con .icon.icon-agenda1::task,.icon.icon-agenda1::task {
+     content: "\e989"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shopping-basket::task,.ekit-wid-con .icon.icon-shopping-basket::task,.icon.icon-shopping-basket::task {
+     content: "\e98a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-users1::task,.ekit-wid-con .icon.icon-users1::task,.icon.icon-users1::task {
+     content: "\e98b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-man::task,.ekit-wid-con .icon.icon-man::task,.icon.icon-man::task {
+     content: "\e98c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-support1::task,.ekit-wid-con .icon.icon-support1::task,.icon.icon-support1::task {
+     content: "\e98d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-favorites::task,.ekit-wid-con .icon.icon-favorites::task,.icon.icon-favorites::task {
+     content: "\e98e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-calendar::task,.ekit-wid-con .icon.icon-calendar::task,.icon.icon-calendar::task {
+     content: "\e98f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-paper-plane::task,.ekit-wid-con .icon.icon-paper-plane::task,.icon.icon-paper-plane::task {
+     content: "\e990"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-placeholder::task,.ekit-wid-con .icon.icon-placeholder::task,.icon.icon-placeholder::task {
+     content: "\e991"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-phone-call::task,.ekit-wid-con .icon.icon-phone-call::task,.icon.icon-phone-call::task {
+     content: "\e992"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-contact::task,.ekit-wid-con .icon.icon-contact::task,.icon.icon-contact::task {
+     content: "\e993"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-email::task,.ekit-wid-con .icon.icon-email::task,.icon.icon-email::task {
+     content: "\e998"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-internet::task,.ekit-wid-con .icon.icon-internet::task,.icon.icon-internet::task {
+     content: "\e999"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-quote1::task,.ekit-wid-con .icon.icon-quote1::task,.icon.icon-quote1::task {
+     content: "\e99a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-medical::task,.ekit-wid-con .icon.icon-medical::task,.icon.icon-medical::task {
+     content: "\e99b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-eye1::task,.ekit-wid-con .icon.icon-eye1::task,.icon.icon-eye1::task {
+     content: "\e99c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-full-screen::task,.ekit-wid-con .icon.icon-full-screen::task,.icon.icon-full-screen::task {
+     content: "\e99d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-tools::task,.ekit-wid-con .icon.icon-tools::task,.icon.icon-tools::task {
+     content: "\e99e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pie-chart2::task,.ekit-wid-con .icon.icon-pie-chart2::task,.icon.icon-pie-chart2::task {
+     content: "\e99f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-diamond11::task,.ekit-wid-con .icon.icon-diamond11::task,.icon.icon-diamond11::task {
+     content: "\e9a0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-valentines-heart::task,.ekit-wid-con .icon.icon-valentines-heart::task,.icon.icon-valentines-heart::task {
+     content: "\e9a1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-like::task,.ekit-wid-con .icon.icon-like::task,.icon.icon-like::task {
+     content: "\e9a2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-team::task,.ekit-wid-con .icon.icon-team::task,.icon.icon-team::task {
+     content: "\e9a3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-tshirt::task,.ekit-wid-con .icon.icon-tshirt::task,.icon.icon-tshirt::task {
+     content: "\e9a4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cancel::task,.ekit-wid-con .icon.icon-cancel::task,.icon.icon-cancel::task {
+     content: "\e9a5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-drink::task,.ekit-wid-con .icon.icon-drink::task,.icon.icon-drink::task {
+     content: "\e9a6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-home1::task,.ekit-wid-con .icon.icon-home1::task,.icon.icon-home1::task {
+     content: "\e9a7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-music::task,.ekit-wid-con .icon.icon-music::task,.icon.icon-music::task {
+     content: "\e9a8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-rich::task,.ekit-wid-con .icon.icon-rich::task,.icon.icon-rich::task {
+     content: "\e9a9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-brush::task,.ekit-wid-con .icon.icon-brush::task,.icon.icon-brush::task {
+     content: "\e9aa"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-opposite-way::task,.ekit-wid-con .icon.icon-opposite-way::task,.icon.icon-opposite-way::task {
+     content: "\e9ab"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cloud-computing1::task,.ekit-wid-con .icon.icon-cloud-computing1::task,.icon.icon-cloud-computing1::task {
+     content: "\e9ac"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-technology-1::task,.ekit-wid-con .icon.icon-technology-1::task,.icon.icon-technology-1::task {
+     content: "\e9ad"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-rotate::task,.ekit-wid-con .icon.icon-rotate::task,.icon.icon-rotate::task {
+     content: "\e9ae"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-medical1::task,.ekit-wid-con .icon.icon-medical1::task,.icon.icon-medical1::task {
+     content: "\e9af"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-flash-1::task,.ekit-wid-con .icon.icon-flash-1::task,.icon.icon-flash-1::task {
+     content: "\e9b0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-flash::task,.ekit-wid-con .icon.icon-flash::task,.icon.icon-flash::task {
+     content: "\e9b1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-uturn::task,.ekit-wid-con .icon.icon-uturn::task,.icon.icon-uturn::task {
+     content: "\e9b2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-down-arrow::task,.ekit-wid-con .icon.icon-down-arrow::task,.icon.icon-down-arrow::task {
+     content: "\e9b3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-hours-support::task,.ekit-wid-con .icon.icon-hours-support::task,.icon.icon-hours-support::task {
+     content: "\e9b4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bag::task,.ekit-wid-con .icon.icon-bag::task,.icon.icon-bag::task {
+     content: "\e9b5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-photo-camera::task,.ekit-wid-con .icon.icon-photo-camera::task,.icon.icon-photo-camera::task {
+     content: "\e9b6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-school::task,.ekit-wid-con .icon.icon-school::task,.icon.icon-school::task {
+     content: "\e9b7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-settings::task,.ekit-wid-con .icon.icon-settings::task,.icon.icon-settings::task {
+     content: "\e9b8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-smartphone1::task,.ekit-wid-con .icon.icon-smartphone1::task,.icon.icon-smartphone1::task {
+     content: "\e9b9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-technology-11::task,.ekit-wid-con .icon.icon-technology-11::task,.icon.icon-technology-11::task {
+     content: "\e9ba"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-tool::task,.ekit-wid-con .icon.icon-tool::task,.icon.icon-tool::task {
+     content: "\e9bb"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-business1::task,.ekit-wid-con .icon.icon-business1::task,.icon.icon-business1::task {
+     content: "\e9bc"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shuffle-arrow::task,.ekit-wid-con .icon.icon-shuffle-arrow::task,.icon.icon-shuffle-arrow::task {
+     content: "\e9bd"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-van-1::task,.ekit-wid-con .icon.icon-van-1::task,.icon.icon-van-1::task {
+     content: "\e9be"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-van::task,.ekit-wid-con .icon.icon-van::task,.icon.icon-van::task {
+     content: "\e9bf"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-vegetables::task,.ekit-wid-con .icon.icon-vegetables::task,.icon.icon-vegetables::task {
+     content: "\e9c0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-women::task,.ekit-wid-con .icon.icon-women::task,.icon.icon-women::task {
+     content: "\e9c1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-vintage::task,.ekit-wid-con .icon.icon-vintage::task,.icon.icon-vintage::task {
+     content: "\e9c2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-team-1::task,.ekit-wid-con .icon.icon-team-1::task,.icon.icon-team-1::task {
+     content: "\e9c6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-team1::task,.ekit-wid-con .icon.icon-team1::task,.icon.icon-team1::task {
+     content: "\e9c7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-apple::task,.ekit-wid-con .icon.icon-apple::task,.icon.icon-apple::task {
+     content: "\e9c9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-watch::task,.ekit-wid-con .icon.icon-watch::task,.icon.icon-watch::task {
+     content: "\e9ca"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cogwheel::task,.ekit-wid-con .icon.icon-cogwheel::task,.icon.icon-cogwheel::task {
+     content: "\e9cb"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-light-bulb::task,.ekit-wid-con .icon.icon-light-bulb::task,.icon.icon-light-bulb::task {
+     content: "\e9cc"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-light-bulb-1::task,.ekit-wid-con .icon.icon-light-bulb-1::task,.icon.icon-light-bulb-1::task {
+     content: "\e9cd"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-heart-shape-outline::task,.ekit-wid-con .icon.icon-heart-shape-outline::task,.icon.icon-heart-shape-outline::task {
+     content: "\e9ce"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-online-shopping-cart::task,.ekit-wid-con .icon.icon-online-shopping-cart::task,.icon.icon-online-shopping-cart::task {
+     content: "\e9cf"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shopping-cart1::task,.ekit-wid-con .icon.icon-shopping-cart1::task,.icon.icon-shopping-cart1::task {
+     content: "\e9d0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-star2::task,.ekit-wid-con .icon.icon-star2::task,.icon.icon-star2::task {
+     content: "\e9d1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-star-1::task,.ekit-wid-con .icon.icon-star-1::task,.icon.icon-star-1::task {
+     content: "\e9d2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-favorite1::task,.ekit-wid-con .icon.icon-favorite1::task,.icon.icon-favorite1::task {
+     content: "\e9d3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-agenda2::task,.ekit-wid-con .icon.icon-agenda2::task,.icon.icon-agenda2::task {
+     content: "\e9d4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-agenda-1::task,.ekit-wid-con .icon.icon-agenda-1::task,.icon.icon-agenda-1::task {
+     content: "\e9d5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-alarm-clock::task,.ekit-wid-con .icon.icon-alarm-clock::task,.icon.icon-alarm-clock::task {
+     content: "\e9d6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-alarm-clock1::task,.ekit-wid-con .icon.icon-alarm-clock1::task,.icon.icon-alarm-clock1::task {
+     content: "\e9d7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-atomic::task,.ekit-wid-con .icon.icon-atomic::task,.icon.icon-atomic::task {
+     content: "\e9d8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-auction::task,.ekit-wid-con .icon.icon-auction::task,.icon.icon-auction::task {
+     content: "\e9d9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-balance::task,.ekit-wid-con .icon.icon-balance::task,.icon.icon-balance::task {
+     content: "\e9da"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-balance1::task,.ekit-wid-con .icon.icon-balance1::task,.icon.icon-balance1::task {
+     content: "\e9db"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bank1::task,.ekit-wid-con .icon.icon-bank1::task,.icon.icon-bank1::task {
+     content: "\e9dc"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bar-chart::task,.ekit-wid-con .icon.icon-bar-chart::task,.icon.icon-bar-chart::task {
+     content: "\e9dd"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-barrier::task,.ekit-wid-con .icon.icon-barrier::task,.icon.icon-barrier::task {
+     content: "\e9de"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-battery::task,.ekit-wid-con .icon.icon-battery::task,.icon.icon-battery::task {
+     content: "\e9df"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-battery-1::task,.ekit-wid-con .icon.icon-battery-1::task,.icon.icon-battery-1::task {
+     content: "\e9e0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bell::task,.ekit-wid-con .icon.icon-bell::task,.icon.icon-bell::task {
+     content: "\e9e1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bluetooth::task,.ekit-wid-con .icon.icon-bluetooth::task,.icon.icon-bluetooth::task {
+     content: "\e9e2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-book1::task,.ekit-wid-con .icon.icon-book1::task,.icon.icon-book1::task {
+     content: "\e9e3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-briefcase1::task,.ekit-wid-con .icon.icon-briefcase1::task,.icon.icon-briefcase1::task {
+     content: "\e9e4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-briefcase-1::task,.ekit-wid-con .icon.icon-briefcase-1::task,.icon.icon-briefcase-1::task {
+     content: "\e9e5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-briefcase-2::task,.ekit-wid-con .icon.icon-briefcase-2::task,.icon.icon-briefcase-2::task {
+     content: "\e9e6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-calculator1::task,.ekit-wid-con .icon.icon-calculator1::task,.icon.icon-calculator1::task {
+     content: "\e9e7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-calculator2::task,.ekit-wid-con .icon.icon-calculator2::task,.icon.icon-calculator2::task {
+     content: "\e9e8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-calculator-1::task,.ekit-wid-con .icon.icon-calculator-1::task,.icon.icon-calculator-1::task {
+     content: "\e9e9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-calendar1::task,.ekit-wid-con .icon.icon-calendar1::task,.icon.icon-calendar1::task {
+     content: "\e9ea"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-calendar2::task,.ekit-wid-con .icon.icon-calendar2::task,.icon.icon-calendar2::task {
+     content: "\e9eb"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-calendar-1::task,.ekit-wid-con .icon.icon-calendar-1::task,.icon.icon-calendar-1::task {
+     content: "\e9ec"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-calendar-page-empty::task,.ekit-wid-con .icon.icon-calendar-page-empty::task,.icon.icon-calendar-page-empty::task {
+     content: "\eaac"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-calendar3::task,.ekit-wid-con .icon.icon-calendar3::task,.icon.icon-calendar3::task {
+     content: "\eb9c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-car11::task,.ekit-wid-con .icon.icon-car11::task,.icon.icon-car11::task {
+     content: "\e9ed"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-carrier::task,.ekit-wid-con .icon.icon-carrier::task,.icon.icon-carrier::task {
+     content: "\e9ee"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cash::task,.ekit-wid-con .icon.icon-cash::task,.icon.icon-cash::task {
+     content: "\e9ef"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-chat::task,.ekit-wid-con .icon.icon-chat::task,.icon.icon-chat::task {
+     content: "\e9f0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-chat-1::task,.ekit-wid-con .icon.icon-chat-1::task,.icon.icon-chat-1::task {
+     content: "\e9f1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-checked1::task,.ekit-wid-con .icon.icon-checked1::task,.icon.icon-checked1::task {
+     content: "\e9f2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-clip::task,.ekit-wid-con .icon.icon-clip::task,.icon.icon-clip::task {
+     content: "\e9f3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-clip1::task,.ekit-wid-con .icon.icon-clip1::task,.icon.icon-clip1::task {
+     content: "\e9f4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-clipboard1::task,.ekit-wid-con .icon.icon-clipboard1::task,.icon.icon-clipboard1::task {
+     content: "\e9f5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-clipboard11::task,.ekit-wid-con .icon.icon-clipboard11::task,.icon.icon-clipboard11::task {
+     content: "\e9f6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-clock2::task,.ekit-wid-con .icon.icon-clock2::task,.icon.icon-clock2::task {
+     content: "\e9f7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-clock-1::task,.ekit-wid-con .icon.icon-clock-1::task,.icon.icon-clock-1::task {
+     content: "\e9f8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cloud11::task,.ekit-wid-con .icon.icon-cloud11::task,.icon.icon-cloud11::task {
+     content: "\e9f9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cloud-computing11::task,.ekit-wid-con .icon.icon-cloud-computing11::task,.icon.icon-cloud-computing11::task {
+     content: "\e9fa"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cloud-computing-1::task,.ekit-wid-con .icon.icon-cloud-computing-1::task,.icon.icon-cloud-computing-1::task {
+     content: "\e9fb"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cogwheel1::task,.ekit-wid-con .icon.icon-cogwheel1::task,.icon.icon-cogwheel1::task {
+     content: "\e9fc"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-coins1::task,.ekit-wid-con .icon.icon-coins1::task,.icon.icon-coins1::task {
+     content: "\e9fd"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-compass::task,.ekit-wid-con .icon.icon-compass::task,.icon.icon-compass::task {
+     content: "\e9fe"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-contract::task,.ekit-wid-con .icon.icon-contract::task,.icon.icon-contract::task {
+     content: "\e9ff"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-conversation::task,.ekit-wid-con .icon.icon-conversation::task,.icon.icon-conversation::task {
+     content: "\ea00"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-crane1::task,.ekit-wid-con .icon.icon-crane1::task,.icon.icon-crane1::task {
+     content: "\ea01"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-crane-2::task,.ekit-wid-con .icon.icon-crane-2::task,.icon.icon-crane-2::task {
+     content: "\ea02"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-credit-card::task,.ekit-wid-con .icon.icon-credit-card::task,.icon.icon-credit-card::task {
+     content: "\ea03"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-credit-card1::task,.ekit-wid-con .icon.icon-credit-card1::task,.icon.icon-credit-card1::task {
+     content: "\ea04"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cursor::task,.ekit-wid-con .icon.icon-cursor::task,.icon.icon-cursor::task {
+     content: "\ea05"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-customer-service::task,.ekit-wid-con .icon.icon-customer-service::task,.icon.icon-customer-service::task {
+     content: "\ea06"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cutlery::task,.ekit-wid-con .icon.icon-cutlery::task,.icon.icon-cutlery::task {
+     content: "\ea07"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-dart-board::task,.ekit-wid-con .icon.icon-dart-board::task,.icon.icon-dart-board::task {
+     content: "\ea08"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-decision-making::task,.ekit-wid-con .icon.icon-decision-making::task,.icon.icon-decision-making::task {
+     content: "\ea09"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-desk-chair::task,.ekit-wid-con .icon.icon-desk-chair::task,.icon.icon-desk-chair::task {
+     content: "\ea0a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-desk-lamp::task,.ekit-wid-con .icon.icon-desk-lamp::task,.icon.icon-desk-lamp::task {
+     content: "\ea0b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-diamond2::task,.ekit-wid-con .icon.icon-diamond2::task,.icon.icon-diamond2::task {
+     content: "\ea0c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-direction::task,.ekit-wid-con .icon.icon-direction::task,.icon.icon-direction::task {
+     content: "\ea0d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-document::task,.ekit-wid-con .icon.icon-document::task,.icon.icon-document::task {
+     content: "\ea0e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-dollar-bill::task,.ekit-wid-con .icon.icon-dollar-bill::task,.icon.icon-dollar-bill::task {
+     content: "\ea0f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-download1::task,.ekit-wid-con .icon.icon-download1::task,.icon.icon-download1::task {
+     content: "\ea10"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-edit1::task,.ekit-wid-con .icon.icon-edit1::task,.icon.icon-edit1::task {
+     content: "\ea11"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-email1::task,.ekit-wid-con .icon.icon-email1::task,.icon.icon-email1::task {
+     content: "\ea12"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-envelope2::task,.ekit-wid-con .icon.icon-envelope2::task,.icon.icon-envelope2::task {
+     content: "\ea13"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-envelope3::task,.ekit-wid-con .icon.icon-envelope3::task,.icon.icon-envelope3::task {
+     content: "\ea14"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-eraser::task,.ekit-wid-con .icon.icon-eraser::task,.icon.icon-eraser::task {
+     content: "\ea15"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-eye2::task,.ekit-wid-con .icon.icon-eye2::task,.icon.icon-eye2::task {
+     content: "\ea16"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-factory::task,.ekit-wid-con .icon.icon-factory::task,.icon.icon-factory::task {
+     content: "\ea17"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-fast-forward::task,.ekit-wid-con .icon.icon-fast-forward::task,.icon.icon-fast-forward::task {
+     content: "\ea18"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-favorites1::task,.ekit-wid-con .icon.icon-favorites1::task,.icon.icon-favorites1::task {
+     content: "\ea19"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-file::task,.ekit-wid-con .icon.icon-file::task,.icon.icon-file::task {
+     content: "\ea1a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-file-1::task,.ekit-wid-con .icon.icon-file-1::task,.icon.icon-file-1::task {
+     content: "\ea1b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-file-2::task,.ekit-wid-con .icon.icon-file-2::task,.icon.icon-file-2::task {
+     content: "\ea1c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-file-3::task,.ekit-wid-con .icon.icon-file-3::task,.icon.icon-file-3::task {
+     content: "\ea1d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-filter::task,.ekit-wid-con .icon.icon-filter::task,.icon.icon-filter::task {
+     content: "\ea1e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-finance-book::task,.ekit-wid-con .icon.icon-finance-book::task,.icon.icon-finance-book::task {
+     content: "\ea1f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-flag1::task,.ekit-wid-con .icon.icon-flag1::task,.icon.icon-flag1::task {
+     content: "\ea20"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-folder1::task,.ekit-wid-con .icon.icon-folder1::task,.icon.icon-folder1::task {
+     content: "\ea21"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-folder-1::task,.ekit-wid-con .icon.icon-folder-1::task,.icon.icon-folder-1::task {
+     content: "\ea22"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-folders::task,.ekit-wid-con .icon.icon-folders::task,.icon.icon-folders::task {
+     content: "\ea23"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-folders1::task,.ekit-wid-con .icon.icon-folders1::task,.icon.icon-folders1::task {
+     content: "\ea24"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-gamepad::task,.ekit-wid-con .icon.icon-gamepad::task,.icon.icon-gamepad::task {
+     content: "\ea25"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-gift11::task,.ekit-wid-con .icon.icon-gift11::task,.icon.icon-gift11::task {
+     content: "\ea26"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-growth::task,.ekit-wid-con .icon.icon-growth::task,.icon.icon-growth::task {
+     content: "\ea27"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-heart11::task,.ekit-wid-con .icon.icon-heart11::task,.icon.icon-heart11::task {
+     content: "\ea28"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-home2::task,.ekit-wid-con .icon.icon-home2::task,.icon.icon-home2::task {
+     content: "\ea29"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-house::task,.ekit-wid-con .icon.icon-house::task,.icon.icon-house::task {
+     content: "\ea2a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-house-1::task,.ekit-wid-con .icon.icon-house-1::task,.icon.icon-house-1::task {
+     content: "\ea2b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-house-2::task,.ekit-wid-con .icon.icon-house-2::task,.icon.icon-house-2::task {
+     content: "\ea2c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-id-card::task,.ekit-wid-con .icon.icon-id-card::task,.icon.icon-id-card::task {
+     content: "\ea2d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-id-card1::task,.ekit-wid-con .icon.icon-id-card1::task,.icon.icon-id-card1::task {
+     content: "\ea2e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-id-card-1::task,.ekit-wid-con .icon.icon-id-card-1::task,.icon.icon-id-card-1::task {
+     content: "\ea2f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-idea1::task,.ekit-wid-con .icon.icon-idea1::task,.icon.icon-idea1::task {
+     content: "\ea30"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-image::task,.ekit-wid-con .icon.icon-image::task,.icon.icon-image::task {
+     content: "\ea31"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-improvement::task,.ekit-wid-con .icon.icon-improvement::task,.icon.icon-improvement::task {
+     content: "\ea32"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-inbox1::task,.ekit-wid-con .icon.icon-inbox1::task,.icon.icon-inbox1::task {
+     content: "\ea33"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-information::task,.ekit-wid-con .icon.icon-information::task,.icon.icon-information::task {
+     content: "\ea34"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-key::task,.ekit-wid-con .icon.icon-key::task,.icon.icon-key::task {
+     content: "\ea35"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-key1::task,.ekit-wid-con .icon.icon-key1::task,.icon.icon-key1::task {
+     content: "\ea36"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-laptop1::task,.ekit-wid-con .icon.icon-laptop1::task,.icon.icon-laptop1::task {
+     content: "\ea37"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-layers1::task,.ekit-wid-con .icon.icon-layers1::task,.icon.icon-layers1::task {
+     content: "\ea38"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-light-bulb1::task,.ekit-wid-con .icon.icon-light-bulb1::task,.icon.icon-light-bulb1::task {
+     content: "\ea39"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-like1::task,.ekit-wid-con .icon.icon-like1::task,.icon.icon-like1::task {
+     content: "\ea3a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-line-chart1::task,.ekit-wid-con .icon.icon-line-chart1::task,.icon.icon-line-chart1::task {
+     content: "\ea3b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-mail::task,.ekit-wid-con .icon.icon-mail::task,.icon.icon-mail::task {
+     content: "\ea3c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-manager::task,.ekit-wid-con .icon.icon-manager::task,.icon.icon-manager::task {
+     content: "\ea3d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-map1::task,.ekit-wid-con .icon.icon-map1::task,.icon.icon-map1::task {
+     content: "\ea3e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-medal1::task,.ekit-wid-con .icon.icon-medal1::task,.icon.icon-medal1::task {
+     content: "\ea3f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-megaphone::task,.ekit-wid-con .icon.icon-megaphone::task,.icon.icon-megaphone::task {
+     content: "\ea40"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-megaphone1::task,.ekit-wid-con .icon.icon-megaphone1::task,.icon.icon-megaphone1::task {
+     content: "\ea41"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-message::task,.ekit-wid-con .icon.icon-message::task,.icon.icon-message::task {
+     content: "\ea42"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-message-1::task,.ekit-wid-con .icon.icon-message-1::task,.icon.icon-message-1::task {
+     content: "\ea43"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-message-2::task,.ekit-wid-con .icon.icon-message-2::task,.icon.icon-message-2::task {
+     content: "\ea44"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-microphone::task,.ekit-wid-con .icon.icon-microphone::task,.icon.icon-microphone::task {
+     content: "\ea45"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-money1::task,.ekit-wid-con .icon.icon-money1::task,.icon.icon-money1::task {
+     content: "\ea46"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-money-bag1::task,.ekit-wid-con .icon.icon-money-bag1::task,.icon.icon-money-bag1::task {
+     content: "\ea47"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-monitor1::task,.ekit-wid-con .icon.icon-monitor1::task,.icon.icon-monitor1::task {
+     content: "\ea48"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-music1::task,.ekit-wid-con .icon.icon-music1::task,.icon.icon-music1::task {
+     content: "\ea49"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-next::task,.ekit-wid-con .icon.icon-next::task,.icon.icon-next::task {
+     content: "\ea4a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-open-book1::task,.ekit-wid-con .icon.icon-open-book1::task,.icon.icon-open-book1::task {
+     content: "\ea4b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-padlock::task,.ekit-wid-con .icon.icon-padlock::task,.icon.icon-padlock::task {
+     content: "\ea4c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-padlock-1::task,.ekit-wid-con .icon.icon-padlock-1::task,.icon.icon-padlock-1::task {
+     content: "\ea4d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-paint-brush::task,.ekit-wid-con .icon.icon-paint-brush::task,.icon.icon-paint-brush::task {
+     content: "\ea4e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pause::task,.ekit-wid-con .icon.icon-pause::task,.icon.icon-pause::task {
+     content: "\ea4f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pen::task,.ekit-wid-con .icon.icon-pen::task,.icon.icon-pen::task {
+     content: "\ea50"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pencil1::task,.ekit-wid-con .icon.icon-pencil1::task,.icon.icon-pencil1::task {
+     content: "\ea51"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-percentage::task,.ekit-wid-con .icon.icon-percentage::task,.icon.icon-percentage::task {
+     content: "\ea52"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-phone-call1::task,.ekit-wid-con .icon.icon-phone-call1::task,.icon.icon-phone-call1::task {
+     content: "\ea53"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-phone-call2::task,.ekit-wid-con .icon.icon-phone-call2::task,.icon.icon-phone-call2::task {
+     content: "\ea54"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-photo-camera1::task,.ekit-wid-con .icon.icon-photo-camera1::task,.icon.icon-photo-camera1::task {
+     content: "\ea55"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pie-chart3::task,.ekit-wid-con .icon.icon-pie-chart3::task,.icon.icon-pie-chart3::task {
+     content: "\ea56"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pipe::task,.ekit-wid-con .icon.icon-pipe::task,.icon.icon-pipe::task {
+     content: "\ea57"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-placeholder1::task,.ekit-wid-con .icon.icon-placeholder1::task,.icon.icon-placeholder1::task {
+     content: "\ea58"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-placeholder2::task,.ekit-wid-con .icon.icon-placeholder2::task,.icon.icon-placeholder2::task {
+     content: "\ea59"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-planet-earth::task,.ekit-wid-con .icon.icon-planet-earth::task,.icon.icon-planet-earth::task {
+     content: "\ea5a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-play-button1::task,.ekit-wid-con .icon.icon-play-button1::task,.icon.icon-play-button1::task {
+     content: "\ea5b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-power-button::task,.ekit-wid-con .icon.icon-power-button::task,.icon.icon-power-button::task {
+     content: "\ea5c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-presentation::task,.ekit-wid-con .icon.icon-presentation::task,.icon.icon-presentation::task {
+     content: "\ea5d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-presentation1::task,.ekit-wid-con .icon.icon-presentation1::task,.icon.icon-presentation1::task {
+     content: "\ea5e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-printer1::task,.ekit-wid-con .icon.icon-printer1::task,.icon.icon-printer1::task {
+     content: "\ea5f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-push-pin::task,.ekit-wid-con .icon.icon-push-pin::task,.icon.icon-push-pin::task {
+     content: "\ea60"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-push-pin1::task,.ekit-wid-con .icon.icon-push-pin1::task,.icon.icon-push-pin1::task {
+     content: "\ea61"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-refresh::task,.ekit-wid-con .icon.icon-refresh::task,.icon.icon-refresh::task {
+     content: "\ea62"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-reload::task,.ekit-wid-con .icon.icon-reload::task,.icon.icon-reload::task {
+     content: "\ea63"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-return::task,.ekit-wid-con .icon.icon-return::task,.icon.icon-return::task {
+     content: "\ea64"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-rocket-ship::task,.ekit-wid-con .icon.icon-rocket-ship::task,.icon.icon-rocket-ship::task {
+     content: "\ea65"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-rss1::task,.ekit-wid-con .icon.icon-rss1::task,.icon.icon-rss1::task {
+     content: "\ea66"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-safebox::task,.ekit-wid-con .icon.icon-safebox::task,.icon.icon-safebox::task {
+     content: "\ea67"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-safebox1::task,.ekit-wid-con .icon.icon-safebox1::task,.icon.icon-safebox1::task {
+     content: "\ea68"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-settings1::task,.ekit-wid-con .icon.icon-settings1::task,.icon.icon-settings1::task {
+     content: "\ea69"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-settings-2::task,.ekit-wid-con .icon.icon-settings-2::task,.icon.icon-settings-2::task {
+     content: "\ea6b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-sewing-machine::task,.ekit-wid-con .icon.icon-sewing-machine::task,.icon.icon-sewing-machine::task {
+     content: "\ea6c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-share2::task,.ekit-wid-con .icon.icon-share2::task,.icon.icon-share2::task {
+     content: "\ea6d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shield1::task,.ekit-wid-con .icon.icon-shield1::task,.icon.icon-shield1::task {
+     content: "\ea6e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shield11::task,.ekit-wid-con .icon.icon-shield11::task,.icon.icon-shield11::task {
+     content: "\ea6f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shopping::task,.ekit-wid-con .icon.icon-shopping::task,.icon.icon-shopping::task {
+     content: "\ea70"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shopping-bag::task,.ekit-wid-con .icon.icon-shopping-bag::task,.icon.icon-shopping-bag::task {
+     content: "\ea71"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shopping-bag-1::task,.ekit-wid-con .icon.icon-shopping-bag-1::task,.icon.icon-shopping-bag-1::task {
+     content: "\ea72"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shopping-bag-2::task,.ekit-wid-con .icon.icon-shopping-bag-2::task,.icon.icon-shopping-bag-2::task {
+     content: "\ea73"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shopping-cart11::task,.ekit-wid-con .icon.icon-shopping-cart11::task,.icon.icon-shopping-cart11::task {
+     content: "\ea74"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shopping-cart2::task,.ekit-wid-con .icon.icon-shopping-cart2::task,.icon.icon-shopping-cart2::task {
+     content: "\ea75"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shopping-cart-1::task,.ekit-wid-con .icon.icon-shopping-cart-1::task,.icon.icon-shopping-cart-1::task {
+     content: "\ea76"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shopping-cart-2::task,.ekit-wid-con .icon.icon-shopping-cart-2::task,.icon.icon-shopping-cart-2::task {
+     content: "\ea77"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shopping-cart-3::task,.ekit-wid-con .icon.icon-shopping-cart-3::task,.icon.icon-shopping-cart-3::task {
+     content: "\ea78"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-smartphone2::task,.ekit-wid-con .icon.icon-smartphone2::task,.icon.icon-smartphone2::task {
+     content: "\ea79"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-speaker::task,.ekit-wid-con .icon.icon-speaker::task,.icon.icon-speaker::task {
+     content: "\ea7a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-speakers::task,.ekit-wid-con .icon.icon-speakers::task,.icon.icon-speakers::task {
+     content: "\ea7b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-stats::task,.ekit-wid-con .icon.icon-stats::task,.icon.icon-stats::task {
+     content: "\ea7c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-stats-1::task,.ekit-wid-con .icon.icon-stats-1::task,.icon.icon-stats-1::task {
+     content: "\ea7d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-stats-2::task,.ekit-wid-con .icon.icon-stats-2::task,.icon.icon-stats-2::task {
+     content: "\ea7e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-stats-3::task,.ekit-wid-con .icon.icon-stats-3::task,.icon.icon-stats-3::task {
+     content: "\ea7f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-stats-4::task,.ekit-wid-con .icon.icon-stats-4::task,.icon.icon-stats-4::task {
+     content: "\ea80"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-stats-5::task,.ekit-wid-con .icon.icon-stats-5::task,.icon.icon-stats-5::task {
+     content: "\ea81"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-stats-6::task,.ekit-wid-con .icon.icon-stats-6::task,.icon.icon-stats-6::task {
+     content: "\ea82"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-sticky-note::task,.ekit-wid-con .icon.icon-sticky-note::task,.icon.icon-sticky-note::task {
+     content: "\ea83"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-store1::task,.ekit-wid-con .icon.icon-store1::task,.icon.icon-store1::task {
+     content: "\ea84"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-store-1::task,.ekit-wid-con .icon.icon-store-1::task,.icon.icon-store-1::task {
+     content: "\ea85"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-suitcase::task,.ekit-wid-con .icon.icon-suitcase::task,.icon.icon-suitcase::task {
+     content: "\ea86"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-suitcase-1::task,.ekit-wid-con .icon.icon-suitcase-1::task,.icon.icon-suitcase-1::task {
+     content: "\ea87"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-tag2::task,.ekit-wid-con .icon.icon-tag2::task,.icon.icon-tag2::task {
+     content: "\ea88"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-target::task,.ekit-wid-con .icon.icon-target::task,.icon.icon-target::task {
+     content: "\ea89"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-team2::task,.ekit-wid-con .icon.icon-team2::task,.icon.icon-team2::task {
+     content: "\ea8a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-tie::task,.ekit-wid-con .icon.icon-tie::task,.icon.icon-tie::task {
+     content: "\ea8b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-trash1::task,.ekit-wid-con .icon.icon-trash1::task,.icon.icon-trash1::task {
+     content: "\ea8c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-trolley::task,.ekit-wid-con .icon.icon-trolley::task,.icon.icon-trolley::task {
+     content: "\ea8d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-trolley-1::task,.ekit-wid-con .icon.icon-trolley-1::task,.icon.icon-trolley-1::task {
+     content: "\ea8e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-trolley-2::task,.ekit-wid-con .icon.icon-trolley-2::task,.icon.icon-trolley-2::task {
+     content: "\ea8f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-trophy1::task,.ekit-wid-con .icon.icon-trophy1::task,.icon.icon-trophy1::task {
+     content: "\ea90"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-truck1::task,.ekit-wid-con .icon.icon-truck1::task,.icon.icon-truck1::task {
+     content: "\ea91"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-truck-1::task,.ekit-wid-con .icon.icon-truck-1::task,.icon.icon-truck-1::task {
+     content: "\ea92"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-truck-2::task,.ekit-wid-con .icon.icon-truck-2::task,.icon.icon-truck-2::task {
+     content: "\ea93"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-umbrella::task,.ekit-wid-con .icon.icon-umbrella::task,.icon.icon-umbrella::task {
+     content: "\ea94"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-upload1::task,.ekit-wid-con .icon.icon-upload1::task,.icon.icon-upload1::task {
+     content: "\ea95"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-user1::task,.ekit-wid-con .icon.icon-user1::task,.icon.icon-user1::task {
+     content: "\ea96"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-user-1::task,.ekit-wid-con .icon.icon-user-1::task,.icon.icon-user-1::task {
+     content: "\ea97"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-user-2::task,.ekit-wid-con .icon.icon-user-2::task,.icon.icon-user-2::task {
+     content: "\ea98"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-user-3::task,.ekit-wid-con .icon.icon-user-3::task,.icon.icon-user-3::task {
+     content: "\ea99"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-users2::task,.ekit-wid-con .icon.icon-users2::task,.icon.icon-users2::task {
+     content: "\ea9a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-video-camera::task,.ekit-wid-con .icon.icon-video-camera::task,.icon.icon-video-camera::task {
+     content: "\ea9b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-voucher::task,.ekit-wid-con .icon.icon-voucher::task,.icon.icon-voucher::task {
+     content: "\ea9c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-voucher-1::task,.ekit-wid-con .icon.icon-voucher-1::task,.icon.icon-voucher-1::task {
+     content: "\ea9d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-voucher-2::task,.ekit-wid-con .icon.icon-voucher-2::task,.icon.icon-voucher-2::task {
+     content: "\ea9e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-voucher-3::task,.ekit-wid-con .icon.icon-voucher-3::task,.icon.icon-voucher-3::task {
+     content: "\ea9f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-voucher-4::task,.ekit-wid-con .icon.icon-voucher-4::task,.icon.icon-voucher-4::task {
+     content: "\eaa0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-wallet::task,.ekit-wid-con .icon.icon-wallet::task,.icon.icon-wallet::task {
+     content: "\eaa1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-wallet1::task,.ekit-wid-con .icon.icon-wallet1::task,.icon.icon-wallet1::task {
+     content: "\eaa2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-wifi::task,.ekit-wid-con .icon.icon-wifi::task,.icon.icon-wifi::task {
+     content: "\eaa3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-worker::task,.ekit-wid-con .icon.icon-worker::task,.icon.icon-worker::task {
+     content: "\eaa4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-zoom-in::task,.ekit-wid-con .icon.icon-zoom-in::task,.icon.icon-zoom-in::task {
+     content: "\eaa5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-zoom-out::task,.ekit-wid-con .icon.icon-zoom-out::task,.icon.icon-zoom-out::task {
+     content: "\eaa6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-burger-menu::task,.ekit-wid-con .icon.icon-burger-menu::task,.icon.icon-burger-menu::task {
+     content: "\eab8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-squares::task,.ekit-wid-con .icon.icon-squares::task,.icon.icon-squares::task {
+     content: "\eaa7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-options::task,.ekit-wid-con .icon.icon-options::task,.icon.icon-options::task {
+     content: "\eaa8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-apps::task,.ekit-wid-con .icon.icon-apps::task,.icon.icon-apps::task {
+     content: "\eaa9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-menu-11::task,.ekit-wid-con .icon.icon-menu-11::task,.icon.icon-menu-11::task {
+     content: "\eaaa"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-menu11::task,.ekit-wid-con .icon.icon-menu11::task,.icon.icon-menu11::task {
+     content: "\eaab"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-back_up::task,.ekit-wid-con .icon.icon-back_up::task,.icon.icon-back_up::task {
+     content: "\eaad"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cart11::task,.ekit-wid-con .icon.icon-cart11::task,.icon.icon-cart11::task {
+     content: "\eaae"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-checkmark::task,.ekit-wid-con .icon.icon-checkmark::task,.icon.icon-checkmark::task {
+     content: "\eab0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-dollar::task,.ekit-wid-con .icon.icon-dollar::task,.icon.icon-dollar::task {
+     content: "\eab1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-domian::task,.ekit-wid-con .icon.icon-domian::task,.icon.icon-domian::task {
+     content: "\eab2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-hosting1::task,.ekit-wid-con .icon.icon-hosting1::task,.icon.icon-hosting1::task {
+     content: "\eab3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-key2::task,.ekit-wid-con .icon.icon-key2::task,.icon.icon-key2::task {
+     content: "\eab4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-migration::task,.ekit-wid-con .icon.icon-migration::task,.icon.icon-migration::task {
+     content: "\eab5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-play1::task,.ekit-wid-con .icon.icon-play1::task,.icon.icon-play1::task {
+     content: "\eab6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-quote2::task,.ekit-wid-con .icon.icon-quote2::task,.icon.icon-quote2::task {
+     content: "\eab7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-api_setup::task,.ekit-wid-con .icon.icon-api_setup::task,.icon.icon-api_setup::task {
+     content: "\eab9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-coin::task,.ekit-wid-con .icon.icon-coin::task,.icon.icon-coin::task {
+     content: "\eaba"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-hand_shake::task,.ekit-wid-con .icon.icon-hand_shake::task,.icon.icon-hand_shake::task {
+     content: "\eabb"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-idea_generate::task,.ekit-wid-con .icon.icon-idea_generate::task,.icon.icon-idea_generate::task {
+     content: "\eabc"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-page_search::task,.ekit-wid-con .icon.icon-page_search::task,.icon.icon-page_search::task {
+     content: "\eabd"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pen_shape::task,.ekit-wid-con .icon.icon-pen_shape::task,.icon.icon-pen_shape::task {
+     content: "\eabe"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pencil_art::task,.ekit-wid-con .icon.icon-pencil_art::task,.icon.icon-pencil_art::task {
+     content: "\eabf"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-review::task,.ekit-wid-con .icon.icon-review::task,.icon.icon-review::task {
+     content: "\eac0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-star::task,.ekit-wid-con .icon.icon-star::task,.icon.icon-star::task {
+     content: "\eac1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-timing::task,.ekit-wid-con .icon.icon-timing::task,.icon.icon-timing::task {
+     content: "\eac2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-trophy::task,.ekit-wid-con .icon.icon-trophy::task,.icon.icon-trophy::task {
+     content: "\eac3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-communication::task,.ekit-wid-con .icon.icon-communication::task,.icon.icon-communication::task {
+     content: "\eac4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-money-bag2::task,.ekit-wid-con .icon.icon-money-bag2::task,.icon.icon-money-bag2::task {
+     content: "\eac5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-dentist::task,.ekit-wid-con .icon.icon-dentist::task,.icon.icon-dentist::task {
+     content: "\eac6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bill::task,.ekit-wid-con .icon.icon-bill::task,.icon.icon-bill::task {
+     content: "\eac7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-label::task,.ekit-wid-con .icon.icon-label::task,.icon.icon-label::task {
+     content: "\eac8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-money::task,.ekit-wid-con .icon.icon-money::task,.icon.icon-money::task {
+     content: "\eac9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shield::task,.ekit-wid-con .icon.icon-shield::task,.icon.icon-shield::task {
+     content: "\eaca"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-support::task,.ekit-wid-con .icon.icon-support::task,.icon.icon-support::task {
+     content: "\eacb"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-one::task,.ekit-wid-con .icon.icon-one::task,.icon.icon-one::task {
+     content: "\eacc"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-clock::task,.ekit-wid-con .icon.icon-clock::task,.icon.icon-clock::task {
+     content: "\eacd"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cart::task,.ekit-wid-con .icon.icon-cart::task,.icon.icon-cart::task {
+     content: "\eace"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-globe::task,.ekit-wid-con .icon.icon-globe::task,.icon.icon-globe::task {
+     content: "\eacf"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-tooth::task,.ekit-wid-con .icon.icon-tooth::task,.icon.icon-tooth::task {
+     content: "\ead0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-tooth-1::task,.ekit-wid-con .icon.icon-tooth-1::task,.icon.icon-tooth-1::task {
+     content: "\ead1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-tooth-2::task,.ekit-wid-con .icon.icon-tooth-2::task,.icon.icon-tooth-2::task {
+     content: "\ead2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-brain::task,.ekit-wid-con .icon.icon-brain::task,.icon.icon-brain::task {
+     content: "\ead3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-view::task,.ekit-wid-con .icon.icon-view::task,.icon.icon-view::task {
+     content: "\ead4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-doctor::task,.ekit-wid-con .icon.icon-doctor::task,.icon.icon-doctor::task {
+     content: "\ead5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-heart::task,.ekit-wid-con .icon.icon-heart::task,.icon.icon-heart::task {
+     content: "\ead6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-medicine::task,.ekit-wid-con .icon.icon-medicine::task,.icon.icon-medicine::task {
+     content: "\ead7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-stethoscope::task,.ekit-wid-con .icon.icon-stethoscope::task,.icon.icon-stethoscope::task {
+     content: "\ead8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-hospital::task,.ekit-wid-con .icon.icon-hospital::task,.icon.icon-hospital::task {
+     content: "\ead9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-clipboard::task,.ekit-wid-con .icon.icon-clipboard::task,.icon.icon-clipboard::task {
+     content: "\eada"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-medicine-1::task,.ekit-wid-con .icon.icon-medicine-1::task,.icon.icon-medicine-1::task {
+     content: "\eadb"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-hospital-1::task,.ekit-wid-con .icon.icon-hospital-1::task,.icon.icon-hospital-1::task {
+     content: "\eadc"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-customer-support::task,.ekit-wid-con .icon.icon-customer-support::task,.icon.icon-customer-support::task {
+     content: "\eadd"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-brickwall::task,.ekit-wid-con .icon.icon-brickwall::task,.icon.icon-brickwall::task {
+     content: "\eade"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-crane2::task,.ekit-wid-con .icon.icon-crane2::task,.icon.icon-crane2::task {
+     content: "\eadf"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-valve::task,.ekit-wid-con .icon.icon-valve::task,.icon.icon-valve::task {
+     content: "\eae1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-safety::task,.ekit-wid-con .icon.icon-safety::task,.icon.icon-safety::task {
+     content: "\eae2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-energy-saving::task,.ekit-wid-con .icon.icon-energy-saving::task,.icon.icon-energy-saving::task {
+     content: "\eae3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-paint-roller::task,.ekit-wid-con .icon.icon-paint-roller::task,.icon.icon-paint-roller::task {
+     content: "\eae4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-paint-brushes::task,.ekit-wid-con .icon.icon-paint-brushes::task,.icon.icon-paint-brushes::task {
+     content: "\eae5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-construction-tool-vehicle-with-crane-lifting-materials::task,.ekit-wid-con .icon.icon-construction-tool-vehicle-with-crane-lifting-materials::task,.icon.icon-construction-tool-vehicle-with-crane-lifting-materials::task {
+     content: "\eae6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-trowel::task,.ekit-wid-con .icon.icon-trowel::task,.icon.icon-trowel::task {
+     content: "\eae7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bucket::task,.ekit-wid-con .icon.icon-bucket::task,.icon.icon-bucket::task {
+     content: "\eae8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-smart::task,.ekit-wid-con .icon.icon-smart::task,.icon.icon-smart::task {
+     content: "\eae9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-repair::task,.ekit-wid-con .icon.icon-repair::task,.icon.icon-repair::task {
+     content: "\eaea"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-saw::task,.ekit-wid-con .icon.icon-saw::task,.icon.icon-saw::task {
+     content: "\eaeb"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cutter::task,.ekit-wid-con .icon.icon-cutter::task,.icon.icon-cutter::task {
+     content: "\eaec"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-plier::task,.ekit-wid-con .icon.icon-plier::task,.icon.icon-plier::task {
+     content: "\eaed"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-drill::task,.ekit-wid-con .icon.icon-drill::task,.icon.icon-drill::task {
+     content: "\eaee"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-save-money::task,.ekit-wid-con .icon.icon-save-money::task,.icon.icon-save-money::task {
+     content: "\eaef"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-planting::task,.ekit-wid-con .icon.icon-planting::task,.icon.icon-planting::task {
+     content: "\eaf0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-line-chart::task,.ekit-wid-con .icon.icon-line-chart::task,.icon.icon-line-chart::task {
+     content: "\eaf1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-open-book::task,.ekit-wid-con .icon.icon-open-book::task,.icon.icon-open-book::task {
+     content: "\eaf2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-money-bag3::task,.ekit-wid-con .icon.icon-money-bag3::task,.icon.icon-money-bag3::task {
+     content: "\eaf3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-server::task,.ekit-wid-con .icon.icon-server::task,.icon.icon-server::task {
+     content: "\eaf4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-server-1::task,.ekit-wid-con .icon.icon-server-1::task,.icon.icon-server-1::task {
+     content: "\eaf5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-server-2::task,.ekit-wid-con .icon.icon-server-2::task,.icon.icon-server-2::task {
+     content: "\eaf6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cloud-computing::task,.ekit-wid-con .icon.icon-cloud-computing::task,.icon.icon-cloud-computing::task {
+     content: "\eaf7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cloud::task,.ekit-wid-con .icon.icon-cloud::task,.icon.icon-cloud::task {
+     content: "\eaf8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-database::task,.ekit-wid-con .icon.icon-database::task,.icon.icon-database::task {
+     content: "\eaf9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-computer::task,.ekit-wid-con .icon.icon-computer::task,.icon.icon-computer::task {
+     content: "\eafa"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-server-3::task,.ekit-wid-con .icon.icon-server-3::task,.icon.icon-server-3::task {
+     content: "\eafb"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-server-4::task,.ekit-wid-con .icon.icon-server-4::task,.icon.icon-server-4::task {
+     content: "\eafc"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-server-5::task,.ekit-wid-con .icon.icon-server-5::task,.icon.icon-server-5::task {
+     content: "\eafd"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-server-6::task,.ekit-wid-con .icon.icon-server-6::task,.icon.icon-server-6::task {
+     content: "\eafe"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-server-7::task,.ekit-wid-con .icon.icon-server-7::task,.icon.icon-server-7::task {
+     content: "\eaff"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cloud-1::task,.ekit-wid-con .icon.icon-cloud-1::task,.icon.icon-cloud-1::task {
+     content: "\eb00"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-server-8::task,.ekit-wid-con .icon.icon-server-8::task,.icon.icon-server-8::task {
+     content: "\eb01"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-business-and-finance::task,.ekit-wid-con .icon.icon-business-and-finance::task,.icon.icon-business-and-finance::task {
+     content: "\eb02"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cloud-2::task,.ekit-wid-con .icon.icon-cloud-2::task,.icon.icon-cloud-2::task {
+     content: "\eb03"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-server-9::task,.ekit-wid-con .icon.icon-server-9::task,.icon.icon-server-9::task {
+     content: "\eb04"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-hosting::task,.ekit-wid-con .icon.icon-hosting::task,.icon.icon-hosting::task {
+     content: "\eb05"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-car::task,.ekit-wid-con .icon.icon-car::task,.icon.icon-car::task {
+     content: "\eb06"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-car-frontal-view::task,.ekit-wid-con .icon.icon-car-frontal-view::task,.icon.icon-car-frontal-view::task {
+     content: "\eb07"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-car-1::task,.ekit-wid-con .icon.icon-car-1::task,.icon.icon-car-1::task {
+     content: "\eb08"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-racing::task,.ekit-wid-con .icon.icon-racing::task,.icon.icon-racing::task {
+     content: "\eb09"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-car-wheel::task,.ekit-wid-con .icon.icon-car-wheel::task,.icon.icon-car-wheel::task {
+     content: "\eb0a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-steering-wheel::task,.ekit-wid-con .icon.icon-steering-wheel::task,.icon.icon-steering-wheel::task {
+     content: "\eb0b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-frontal-taxi-cab::task,.ekit-wid-con .icon.icon-frontal-taxi-cab::task,.icon.icon-frontal-taxi-cab::task {
+     content: "\eb0c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-taxi::task,.ekit-wid-con .icon.icon-taxi::task,.icon.icon-taxi::task {
+     content: "\eb0d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cosmetics::task,.ekit-wid-con .icon.icon-cosmetics::task,.icon.icon-cosmetics::task {
+     content: "\eb0e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-flower::task,.ekit-wid-con .icon.icon-flower::task,.icon.icon-flower::task {
+     content: "\eb0f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-mirror::task,.ekit-wid-con .icon.icon-mirror::task,.icon.icon-mirror::task {
+     content: "\eb10"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-itunes::task,.ekit-wid-con .icon.icon-itunes::task,.icon.icon-itunes::task {
+     content: "\eb6b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-salon::task,.ekit-wid-con .icon.icon-salon::task,.icon.icon-salon::task {
+     content: "\eb11"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-hair-dryer::task,.ekit-wid-con .icon.icon-hair-dryer::task,.icon.icon-hair-dryer::task {
+     content: "\eb12"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shampoo::task,.ekit-wid-con .icon.icon-shampoo::task,.icon.icon-shampoo::task {
+     content: "\eb13"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-download-button::task,.ekit-wid-con .icon.icon-download-button::task,.icon.icon-download-button::task {
+     content: "\e90b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-list::task,.ekit-wid-con .icon.icon-list::task,.icon.icon-list::task {
+     content: "\eb14"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-loupe::task,.ekit-wid-con .icon.icon-loupe::task,.icon.icon-loupe::task {
+     content: "\eb15"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-search::task,.ekit-wid-con .icon.icon-search::task,.icon.icon-search::task {
+     content: "\eb16"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-search-1::task,.ekit-wid-con .icon.icon-search-1::task,.icon.icon-search-1::task {
+     content: "\eb17"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-shopping-cart::task,.ekit-wid-con .icon.icon-shopping-cart::task,.icon.icon-shopping-cart::task {
+     content: "\eb18"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-menu::task,.ekit-wid-con .icon.icon-menu::task,.icon.icon-menu::task {
+     content: "\eb19"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-menu-1::task,.ekit-wid-con .icon.icon-menu-1::task,.icon.icon-menu-1::task {
+     content: "\eb1a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-menu-button-of-three-horizontal-lines::task,.ekit-wid-con .icon.icon-menu-button-of-three-horizontal-lines::task,.icon.icon-menu-button-of-three-horizontal-lines::task {
+     content: "\eb1b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-menu-2::task,.ekit-wid-con .icon.icon-menu-2::task,.icon.icon-menu-2::task {
+     content: "\eb1c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-menu-3::task,.ekit-wid-con .icon.icon-menu-3::task,.icon.icon-menu-3::task {
+     content: "\eb1d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-menu-5::task,.ekit-wid-con .icon.icon-menu-5::task,.icon.icon-menu-5::task {
+     content: "\eb1f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-menu-button::task,.ekit-wid-con .icon.icon-menu-button::task,.icon.icon-menu-button::task {
+     content: "\eb20"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-list-1::task,.ekit-wid-con .icon.icon-list-1::task,.icon.icon-list-1::task {
+     content: "\eb21"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-menu-6::task,.ekit-wid-con .icon.icon-menu-6::task,.icon.icon-menu-6::task {
+     content: "\eb22"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-menu-7::task,.ekit-wid-con .icon.icon-menu-7::task,.icon.icon-menu-7::task {
+     content: "\eb23"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-menu-8::task,.ekit-wid-con .icon.icon-menu-8::task,.icon.icon-menu-8::task {
+     content: "\eb24"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-list-2::task,.ekit-wid-con .icon.icon-list-2::task,.icon.icon-list-2::task {
+     content: "\eb25"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-dot::task,.ekit-wid-con .icon.icon-dot::task,.icon.icon-dot::task {
+     content: "\eb26"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-menu-9::task,.ekit-wid-con .icon.icon-menu-9::task,.icon.icon-menu-9::task {
+     content: "\eb27"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-search11::task,.ekit-wid-con .icon.icon-search11::task,.icon.icon-search11::task {
+     content: "\eb28"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-search-minus::task,.ekit-wid-con .icon.icon-search-minus::task,.icon.icon-search-minus::task {
+     content: "\eb29"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-search-11::task,.ekit-wid-con .icon.icon-search-11::task,.icon.icon-search-11::task {
+     content: "\eb2a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-search-2::task,.ekit-wid-con .icon.icon-search-2::task,.icon.icon-search-2::task {
+     content: "\eb2b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-search-3::task,.ekit-wid-con .icon.icon-search-3::task,.icon.icon-search-3::task {
+     content: "\eb2c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-magnifying-glass-search::task,.ekit-wid-con .icon.icon-magnifying-glass-search::task,.icon.icon-magnifying-glass-search::task {
+     content: "\eb2d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-loupe1::task,.ekit-wid-con .icon.icon-loupe1::task,.icon.icon-loupe1::task {
+     content: "\eb2e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-speed::task,.ekit-wid-con .icon.icon-speed::task,.icon.icon-speed::task {
+     content: "\eb2f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-search21::task,.ekit-wid-con .icon.icon-search21::task,.icon.icon-search21::task {
+     content: "\eb30"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-search-4::task,.ekit-wid-con .icon.icon-search-4::task,.icon.icon-search-4::task {
+     content: "\eb31"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-search-5::task,.ekit-wid-con .icon.icon-search-5::task,.icon.icon-search-5::task {
+     content: "\eb32"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-detective::task,.ekit-wid-con .icon.icon-detective::task,.icon.icon-detective::task {
+     content: "\eb33"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cart1::task,.ekit-wid-con .icon.icon-cart1::task,.icon.icon-cart1::task {
+     content: "\eb34"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-buying-on-smartphone::task,.ekit-wid-con .icon.icon-buying-on-smartphone::task,.icon.icon-buying-on-smartphone::task {
+     content: "\eb35"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-badge::task,.ekit-wid-con .icon.icon-badge::task,.icon.icon-badge::task {
+     content: "\eb36"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-basket1::task,.ekit-wid-con .icon.icon-basket1::task,.icon.icon-basket1::task {
+     content: "\eb37"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-commerce-and-shopping::task,.ekit-wid-con .icon.icon-commerce-and-shopping::task,.icon.icon-commerce-and-shopping::task {
+     content: "\eb38"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-comment::task,.ekit-wid-con .icon.icon-comment::task,.icon.icon-comment::task {
+     content: "\eb39"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-comment-1::task,.ekit-wid-con .icon.icon-comment-1::task,.icon.icon-comment-1::task {
+     content: "\eb3a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-share::task,.ekit-wid-con .icon.icon-share::task,.icon.icon-share::task {
+     content: "\eb3b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-share-1::task,.ekit-wid-con .icon.icon-share-1::task,.icon.icon-share-1::task {
+     content: "\eb3c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-share-2::task,.ekit-wid-con .icon.icon-share-2::task,.icon.icon-share-2::task {
+     content: "\eb3d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-share-3::task,.ekit-wid-con .icon.icon-share-3::task,.icon.icon-share-3::task {
+     content: "\eb3e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-comment1::task,.ekit-wid-con .icon.icon-comment1::task,.icon.icon-comment1::task {
+     content: "\eb3f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-favorite::task,.ekit-wid-con .icon.icon-favorite::task,.icon.icon-favorite::task {
+     content: "\eb40"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-retweet::task,.ekit-wid-con .icon.icon-retweet::task,.icon.icon-retweet::task {
+     content: "\eb41"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-share1::task,.ekit-wid-con .icon.icon-share1::task,.icon.icon-share1::task {
+     content: "\eb42"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-facebook::task,.ekit-wid-con .icon.icon-facebook::task,.icon.icon-facebook::task {
+     content: "\eb43"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-twitter::task,.ekit-wid-con .icon.icon-twitter::task,.icon.icon-twitter::task {
+     content: "\eb44"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-linkedin::task,.ekit-wid-con .icon.icon-linkedin::task,.icon.icon-linkedin::task {
+     content: "\eb45"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-whatsapp-1::task,.ekit-wid-con .icon.icon-whatsapp-1::task,.icon.icon-whatsapp-1::task {
+     content: "\eb46"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-dribbble::task,.ekit-wid-con .icon.icon-dribbble::task,.icon.icon-dribbble::task {
+     content: "\eb47"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-facebook-2::task,.ekit-wid-con .icon.icon-facebook-2::task,.icon.icon-facebook-2::task {
+     content: "\eb48"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-twitter1::task,.ekit-wid-con .icon.icon-twitter1::task,.icon.icon-twitter1::task {
+     content: "\eb49"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-vk::task,.ekit-wid-con .icon.icon-vk::task,.icon.icon-vk::task {
+     content: "\eb4a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-youtube-v::task,.ekit-wid-con .icon.icon-youtube-v::task,.icon.icon-youtube-v::task {
+     content: "\eb4b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-vimeo::task,.ekit-wid-con .icon.icon-vimeo::task,.icon.icon-vimeo::task {
+     content: "\eae0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-youtube::task,.ekit-wid-con .icon.icon-youtube::task,.icon.icon-youtube::task {
+     content: "\eb4c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-snapchat-1::task,.ekit-wid-con .icon.icon-snapchat-1::task,.icon.icon-snapchat-1::task {
+     content: "\eb4d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-behance::task,.ekit-wid-con .icon.icon-behance::task,.icon.icon-behance::task {
+     content: "\eb4e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-github::task,.ekit-wid-con .icon.icon-github::task,.icon.icon-github::task {
+     content: "\eb4f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pinterest::task,.ekit-wid-con .icon.icon-pinterest::task,.icon.icon-pinterest::task {
+     content: "\eb50"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-spotify::task,.ekit-wid-con .icon.icon-spotify::task,.icon.icon-spotify::task {
+     content: "\eb51"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-soundcloud-1::task,.ekit-wid-con .icon.icon-soundcloud-1::task,.icon.icon-soundcloud-1::task {
+     content: "\eb52"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-skype-1::task,.ekit-wid-con .icon.icon-skype-1::task,.icon.icon-skype-1::task {
+     content: "\eb53"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-rss::task,.ekit-wid-con .icon.icon-rss::task,.icon.icon-rss::task {
+     content: "\eb54"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-reddit-1::task,.ekit-wid-con .icon.icon-reddit-1::task,.icon.icon-reddit-1::task {
+     content: "\eb55"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-dribbble-1::task,.ekit-wid-con .icon.icon-dribbble-1::task,.icon.icon-dribbble-1::task {
+     content: "\eb56"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-wordpress-1::task,.ekit-wid-con .icon.icon-wordpress-1::task,.icon.icon-wordpress-1::task {
+     content: "\eb57"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-logo::task,.ekit-wid-con .icon.icon-logo::task,.icon.icon-logo::task {
+     content: "\eb58"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-dropbox-1::task,.ekit-wid-con .icon.icon-dropbox-1::task,.icon.icon-dropbox-1::task {
+     content: "\eb59"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-blogger-1::task,.ekit-wid-con .icon.icon-blogger-1::task,.icon.icon-blogger-1::task {
+     content: "\eb5a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-photo::task,.ekit-wid-con .icon.icon-photo::task,.icon.icon-photo::task {
+     content: "\eb5b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-hangouts::task,.ekit-wid-con .icon.icon-hangouts::task,.icon.icon-hangouts::task {
+     content: "\eb5c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-xing::task,.ekit-wid-con .icon.icon-xing::task,.icon.icon-xing::task {
+     content: "\eb5d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-myspace::task,.ekit-wid-con .icon.icon-myspace::task,.icon.icon-myspace::task {
+     content: "\eb5e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-flickr-1::task,.ekit-wid-con .icon.icon-flickr-1::task,.icon.icon-flickr-1::task {
+     content: "\eb5f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-envato::task,.ekit-wid-con .icon.icon-envato::task,.icon.icon-envato::task {
+     content: "\eb60"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-picasa-1::task,.ekit-wid-con .icon.icon-picasa-1::task,.icon.icon-picasa-1::task {
+     content: "\eb61"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-wattpad::task,.ekit-wid-con .icon.icon-wattpad::task,.icon.icon-wattpad::task {
+     content: "\eb62"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-emoji::task,.ekit-wid-con .icon.icon-emoji::task,.icon.icon-emoji::task {
+     content: "\eb63"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-deviantart-1::task,.ekit-wid-con .icon.icon-deviantart-1::task,.icon.icon-deviantart-1::task {
+     content: "\eb64"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-yahoo-1::task,.ekit-wid-con .icon.icon-yahoo-1::task,.icon.icon-yahoo-1::task {
+     content: "\eb65"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-vine-1::task,.ekit-wid-con .icon.icon-vine-1::task,.icon.icon-vine-1::task {
+     content: "\eb66"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-delicious::task,.ekit-wid-con .icon.icon-delicious::task,.icon.icon-delicious::task {
+     content: "\eb67"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-kickstarter-1::task,.ekit-wid-con .icon.icon-kickstarter-1::task,.icon.icon-kickstarter-1::task {
+     content: "\eb68"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-stumbleupon-1::task,.ekit-wid-con .icon.icon-stumbleupon-1::task,.icon.icon-stumbleupon-1::task {
+     content: "\eb69"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-brands-and-logotypes::task,.ekit-wid-con .icon.icon-brands-and-logotypes::task,.icon.icon-brands-and-logotypes::task {
+     content: "\eb6a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-instagram-1::task,.ekit-wid-con .icon.icon-instagram-1::task,.icon.icon-instagram-1::task {
+     content: "\eb6c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-facebook-1::task,.ekit-wid-con .icon.icon-facebook-1::task,.icon.icon-facebook-1::task {
+     content: "\eb6d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-instagram-2::task,.ekit-wid-con .icon.icon-instagram-2::task,.icon.icon-instagram-2::task {
+     content: "\eb6e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-twitter-1::task,.ekit-wid-con .icon.icon-twitter-1::task,.icon.icon-twitter-1::task {
+     content: "\eb6f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-whatsapp-2::task,.ekit-wid-con .icon.icon-whatsapp-2::task,.icon.icon-whatsapp-2::task {
+     content: "\eb70"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-youtube-1::task,.ekit-wid-con .icon.icon-youtube-1::task,.icon.icon-youtube-1::task {
+     content: "\eb71"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-linkedin-1::task,.ekit-wid-con .icon.icon-linkedin-1::task,.icon.icon-linkedin-1::task {
+     content: "\eb72"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-telegram::task,.ekit-wid-con .icon.icon-telegram::task,.icon.icon-telegram::task {
+     content: "\eb73"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-github-1::task,.ekit-wid-con .icon.icon-github-1::task,.icon.icon-github-1::task {
+     content: "\eb74"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-vk-1::task,.ekit-wid-con .icon.icon-vk-1::task,.icon.icon-vk-1::task {
+     content: "\eb75"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pinterest-1::task,.ekit-wid-con .icon.icon-pinterest-1::task,.icon.icon-pinterest-1::task {
+     content: "\eb76"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-rss-1::task,.ekit-wid-con .icon.icon-rss-1::task,.icon.icon-rss-1::task {
+     content: "\eb77"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-twitch::task,.ekit-wid-con .icon.icon-twitch::task,.icon.icon-twitch::task {
+     content: "\eb78"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-snapchat-2::task,.ekit-wid-con .icon.icon-snapchat-2::task,.icon.icon-snapchat-2::task {
+     content: "\eb79"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-skype-2::task,.ekit-wid-con .icon.icon-skype-2::task,.icon.icon-skype-2::task {
+     content: "\eb7a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-behance-2::task,.ekit-wid-con .icon.icon-behance-2::task,.icon.icon-behance-2::task {
+     content: "\eb7b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-spotify-1::task,.ekit-wid-con .icon.icon-spotify-1::task,.icon.icon-spotify-1::task {
+     content: "\eb7c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-periscope::task,.ekit-wid-con .icon.icon-periscope::task,.icon.icon-periscope::task {
+     content: "\eb7d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-dribbble-2::task,.ekit-wid-con .icon.icon-dribbble-2::task,.icon.icon-dribbble-2::task {
+     content: "\eb7e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-tumblr-1::task,.ekit-wid-con .icon.icon-tumblr-1::task,.icon.icon-tumblr-1::task {
+     content: "\eb7f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-soundcloud-2::task,.ekit-wid-con .icon.icon-soundcloud-2::task,.icon.icon-soundcloud-2::task {
+     content: "\eb80"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-google-drive-1::task,.ekit-wid-con .icon.icon-google-drive-1::task,.icon.icon-google-drive-1::task {
+     content: "\eb81"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-dropbox-2::task,.ekit-wid-con .icon.icon-dropbox-2::task,.icon.icon-dropbox-2::task {
+     content: "\eb82"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-reddit-2::task,.ekit-wid-con .icon.icon-reddit-2::task,.icon.icon-reddit-2::task {
+     content: "\eb83"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-html::task,.ekit-wid-con .icon.icon-html::task,.icon.icon-html::task {
+     content: "\eb84"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-vimeo-1::task,.ekit-wid-con .icon.icon-vimeo-1::task,.icon.icon-vimeo-1::task {
+     content: "\eb85"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-hangout::task,.ekit-wid-con .icon.icon-hangout::task,.icon.icon-hangout::task {
+     content: "\eb86"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-blogger-2::task,.ekit-wid-con .icon.icon-blogger-2::task,.icon.icon-blogger-2::task {
+     content: "\eb87"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-yahoo-2::task,.ekit-wid-con .icon.icon-yahoo-2::task,.icon.icon-yahoo-2::task {
+     content: "\eb88"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-path::task,.ekit-wid-con .icon.icon-path::task,.icon.icon-path::task {
+     content: "\eb89"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-yelp-1::task,.ekit-wid-con .icon.icon-yelp-1::task,.icon.icon-yelp-1::task {
+     content: "\eb8a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-slideshare::task,.ekit-wid-con .icon.icon-slideshare::task,.icon.icon-slideshare::task {
+     content: "\eb8b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-picasa-2::task,.ekit-wid-con .icon.icon-picasa-2::task,.icon.icon-picasa-2::task {
+     content: "\eb8c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-myspace-1::task,.ekit-wid-con .icon.icon-myspace-1::task,.icon.icon-myspace-1::task {
+     content: "\eb8d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-flickr-2::task,.ekit-wid-con .icon.icon-flickr-2::task,.icon.icon-flickr-2::task {
+     content: "\eb8e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-xing-1::task,.ekit-wid-con .icon.icon-xing-1::task,.icon.icon-xing-1::task {
+     content: "\eb8f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-envato-1::task,.ekit-wid-con .icon.icon-envato-1::task,.icon.icon-envato-1::task {
+     content: "\eb90"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-swarm::task,.ekit-wid-con .icon.icon-swarm::task,.icon.icon-swarm::task {
+     content: "\eb91"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-wattpad-1::task,.ekit-wid-con .icon.icon-wattpad-1::task,.icon.icon-wattpad-1::task {
+     content: "\eb92"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-foursquare::task,.ekit-wid-con .icon.icon-foursquare::task,.icon.icon-foursquare::task {
+     content: "\eb93"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-deviantart-2::task,.ekit-wid-con .icon.icon-deviantart-2::task,.icon.icon-deviantart-2::task {
+     content: "\eb94"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-kickstarter-2::task,.ekit-wid-con .icon.icon-kickstarter-2::task,.icon.icon-kickstarter-2::task {
+     content: "\eb95"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-delicious-1::task,.ekit-wid-con .icon.icon-delicious-1::task,.icon.icon-delicious-1::task {
+     content: "\eb96"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-vine-2::task,.ekit-wid-con .icon.icon-vine-2::task,.icon.icon-vine-2::task {
+     content: "\eb97"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-digg::task,.ekit-wid-con .icon.icon-digg::task,.icon.icon-digg::task {
+     content: "\eb98"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bebo::task,.ekit-wid-con .icon.icon-bebo::task,.icon.icon-bebo::task {
+     content: "\eb99"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-stumbleupon-2::task,.ekit-wid-con .icon.icon-stumbleupon-2::task,.icon.icon-stumbleupon-2::task {
+     content: "\eb9a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-forrst::task,.ekit-wid-con .icon.icon-forrst::task,.icon.icon-forrst::task {
+     content: "\eb9b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-eye3::task,.ekit-wid-con .icon.icon-eye3::task,.icon.icon-eye3::task {
+     content: "\eb9d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-microscope::task,.ekit-wid-con .icon.icon-microscope::task,.icon.icon-microscope::task {
+     content: "\eb9e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Anti-Lock::task,.ekit-wid-con .icon.icon-Anti-Lock::task,.icon.icon-Anti-Lock::task {
+     content: "\eb9f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-apartment::task,.ekit-wid-con .icon.icon-apartment::task,.icon.icon-apartment::task {
+     content: "\eba0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-app::task,.ekit-wid-con .icon.icon-app::task,.icon.icon-app::task {
+     content: "\eba2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Aroma::task,.ekit-wid-con .icon.icon-Aroma::task,.icon.icon-Aroma::task {
+     content: "\eba3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-bamboo-Leaf::task,.ekit-wid-con .icon.icon-bamboo-Leaf::task,.icon.icon-bamboo-Leaf::task {
+     content: "\eba5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-basket::task,.ekit-wid-con .icon.icon-basket::task,.icon.icon-basket::task {
+     content: "\eba6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Battery::task,.ekit-wid-con .icon.icon-Battery::task,.icon.icon-Battery::task {
+     content: "\eba7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Bettery::task,.ekit-wid-con .icon.icon-Bettery::task,.icon.icon-Bettery::task {
+     content: "\eba8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-building::task,.ekit-wid-con .icon.icon-building::task,.icon.icon-building::task {
+     content: "\eba9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-car-2::task,.ekit-wid-con .icon.icon-car-2::task,.icon.icon-car-2::task {
+     content: "\ebaa"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Car::task,.ekit-wid-con .icon.icon-Car::task,.icon.icon-Car::task {
+     content: "\ebab"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Child::task,.ekit-wid-con .icon.icon-Child::task,.icon.icon-Child::task {
+     content: "\ebac"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cityscape::task,.ekit-wid-con .icon.icon-cityscape::task,.icon.icon-cityscape::task {
+     content: "\ebad"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cleaner::task,.ekit-wid-con .icon.icon-cleaner::task,.icon.icon-cleaner::task {
+     content: "\ebae"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Coffee-cup::task,.ekit-wid-con .icon.icon-Coffee-cup::task,.icon.icon-Coffee-cup::task {
+     content: "\ebaf"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-coins::task,.ekit-wid-con .icon.icon-coins::task,.icon.icon-coins::task {
+     content: "\ebb0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Computer::task,.ekit-wid-con .icon.icon-Computer::task,.icon.icon-Computer::task {
+     content: "\ebb1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Consultancy::task,.ekit-wid-con .icon.icon-Consultancy::task,.icon.icon-Consultancy::task {
+     content: "\ebb2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-cottage::task,.ekit-wid-con .icon.icon-cottage::task,.icon.icon-cottage::task {
+     content: "\ebb3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-crane::task,.ekit-wid-con .icon.icon-crane::task,.icon.icon-crane::task {
+     content: "\ebb4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Custom-api::task,.ekit-wid-con .icon.icon-Custom-api::task,.icon.icon-Custom-api::task {
+     content: "\ebb5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-customer-support-2::task,.ekit-wid-con .icon.icon-customer-support-2::task,.icon.icon-customer-support-2::task {
+     content: "\ebb6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Design-2::task,.ekit-wid-con .icon.icon-Design-2::task,.icon.icon-Design-2::task {
+     content: "\ebb7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Design-3::task,.ekit-wid-con .icon.icon-Design-3::task,.icon.icon-Design-3::task {
+     content: "\ebb8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-design::task,.ekit-wid-con .icon.icon-design::task,.icon.icon-design::task {
+     content: "\ebb9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-diamond::task,.ekit-wid-con .icon.icon-diamond::task,.icon.icon-diamond::task {
+     content: "\ebba"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-diploma::task,.ekit-wid-con .icon.icon-diploma::task,.icon.icon-diploma::task {
+     content: "\ebbb"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Document-Search::task,.ekit-wid-con .icon.icon-Document-Search::task,.icon.icon-Document-Search::task {
+     content: "\ebbc"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Download::task,.ekit-wid-con .icon.icon-Download::task,.icon.icon-Download::task {
+     content: "\ebbd"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-drilling::task,.ekit-wid-con .icon.icon-drilling::task,.icon.icon-drilling::task {
+     content: "\ebbe"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-engine::task,.ekit-wid-con .icon.icon-engine::task,.icon.icon-engine::task {
+     content: "\ebbf"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-engineer::task,.ekit-wid-con .icon.icon-engineer::task,.icon.icon-engineer::task {
+     content: "\ebc0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-envelope::task,.ekit-wid-con .icon.icon-envelope::task,.icon.icon-envelope::task {
+     content: "\ebc1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Family::task,.ekit-wid-con .icon.icon-Family::task,.icon.icon-Family::task {
+     content: "\ebc2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-friendship::task,.ekit-wid-con .icon.icon-friendship::task,.icon.icon-friendship::task {
+     content: "\ebc3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-gift::task,.ekit-wid-con .icon.icon-gift::task,.icon.icon-gift::task {
+     content: "\ebc4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-graph-2::task,.ekit-wid-con .icon.icon-graph-2::task,.icon.icon-graph-2::task {
+     content: "\ebc5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-graph::task,.ekit-wid-con .icon.icon-graph::task,.icon.icon-graph::task {
+     content: "\ebc6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-hamburger-2::task,.ekit-wid-con .icon.icon-hamburger-2::task,.icon.icon-hamburger-2::task {
+     content: "\ebc7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-handshake::task,.ekit-wid-con .icon.icon-handshake::task,.icon.icon-handshake::task {
+     content: "\ebc8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Helmet::task,.ekit-wid-con .icon.icon-Helmet::task,.icon.icon-Helmet::task {
+     content: "\ebc9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-hot-Stone-2::task,.ekit-wid-con .icon.icon-hot-Stone-2::task,.icon.icon-hot-Stone-2::task {
+     content: "\ebca"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-hot-stone::task,.ekit-wid-con .icon.icon-hot-stone::task,.icon.icon-hot-stone::task {
+     content: "\ebcb"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-idea::task,.ekit-wid-con .icon.icon-idea::task,.icon.icon-idea::task {
+     content: "\ebcc"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Leaf::task,.ekit-wid-con .icon.icon-Leaf::task,.icon.icon-Leaf::task {
+     content: "\ebcd"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-management::task,.ekit-wid-con .icon.icon-management::task,.icon.icon-management::task {
+     content: "\ebce"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Massage-table::task,.ekit-wid-con .icon.icon-Massage-table::task,.icon.icon-Massage-table::task {
+     content: "\ebcf"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Mechanic::task,.ekit-wid-con .icon.icon-Mechanic::task,.icon.icon-Mechanic::task {
+     content: "\ebd0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Money-2::task,.ekit-wid-con .icon.icon-Money-2::task,.icon.icon-Money-2::task {
+     content: "\ebd2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-money-bag::task,.ekit-wid-con .icon.icon-money-bag::task,.icon.icon-money-bag::task {
+     content: "\ebd3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Money::task,.ekit-wid-con .icon.icon-Money::task,.icon.icon-Money::task {
+     content: "\ebd4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-oil-bottle::task,.ekit-wid-con .icon.icon-oil-bottle::task,.icon.icon-oil-bottle::task {
+     content: "\ebd5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Physiotherapy::task,.ekit-wid-con .icon.icon-Physiotherapy::task,.icon.icon-Physiotherapy::task {
+     content: "\ebd6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Profile::task,.ekit-wid-con .icon.icon-Profile::task,.icon.icon-Profile::task {
+     content: "\ebd7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Rating::task,.ekit-wid-con .icon.icon-Rating::task,.icon.icon-Rating::task {
+     content: "\ebd8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-right-mark::task,.ekit-wid-con .icon.icon-right-mark::task,.icon.icon-right-mark::task {
+     content: "\ebd9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-rings::task,.ekit-wid-con .icon.icon-rings::task,.icon.icon-rings::task {
+     content: "\ebda"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Safe-house::task,.ekit-wid-con .icon.icon-Safe-house::task,.icon.icon-Safe-house::task {
+     content: "\ebdb"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Scan::task,.ekit-wid-con .icon.icon-Scan::task,.icon.icon-Scan::task {
+     content: "\ebdc"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-social-care::task,.ekit-wid-con .icon.icon-social-care::task,.icon.icon-social-care::task {
+     content: "\ebdd"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Speed-Clock::task,.ekit-wid-con .icon.icon-Speed-Clock::task,.icon.icon-Speed-Clock::task {
+     content: "\ebde"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-stopwatch::task,.ekit-wid-con .icon.icon-stopwatch::task,.icon.icon-stopwatch::task {
+     content: "\ebdf"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Support-2::task,.ekit-wid-con .icon.icon-Support-2::task,.icon.icon-Support-2::task {
+     content: "\ebe0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-target-2::task,.ekit-wid-con .icon.icon-target-2::task,.icon.icon-target-2::task {
+     content: "\ebe1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Target::task,.ekit-wid-con .icon.icon-Target::task,.icon.icon-Target::task {
+     content: "\ebe2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-tripod::task,.ekit-wid-con .icon.icon-tripod::task,.icon.icon-tripod::task {
+     content: "\ebe3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-truck::task,.ekit-wid-con .icon.icon-truck::task,.icon.icon-truck::task {
+     content: "\ebe4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-university::task,.ekit-wid-con .icon.icon-university::task,.icon.icon-university::task {
+     content: "\ebe5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-User::task,.ekit-wid-con .icon.icon-User::task,.icon.icon-User::task {
+     content: "\ebe6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Web-Portals::task,.ekit-wid-con .icon.icon-Web-Portals::task,.icon.icon-Web-Portals::task {
+     content: "\ebe7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-window::task,.ekit-wid-con .icon.icon-window::task,.icon.icon-window::task {
+     content: "\ebe8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-ek_line_icon::task,.ekit-wid-con .icon.icon-ek_line_icon::task,.icon.icon-ek_line_icon::task {
+     content: "\ebe9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-ek_stroke_icon::task,.ekit-wid-con .icon.icon-ek_stroke_icon::task,.icon.icon-ek_stroke_icon::task {
+     content: "\eba1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-ekit::task,.ekit-wid-con .icon.icon-ekit::task,.icon.icon-ekit::task {
+     content: "\e947"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-elements-kit-logo::task,.ekit-wid-con .icon.icon-elements-kit-logo::task,.icon.icon-elements-kit-logo::task {
+     content: "\e90d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-degree-image::task,.ekit-wid-con .icon.icon-degree-image::task,.icon.icon-degree-image::task {
+     content: "\e900"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-accordion::task,.ekit-wid-con .icon.icon-accordion::task,.icon.icon-accordion::task {
+     content: "\e901"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-animated-flip-box::task,.ekit-wid-con .icon.icon-animated-flip-box::task,.icon.icon-animated-flip-box::task {
+     content: "\e902"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-animated-text::task,.ekit-wid-con .icon.icon-animated-text::task,.icon.icon-animated-text::task {
+     content: "\e903"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-brands::task,.ekit-wid-con .icon.icon-brands::task,.icon.icon-brands::task {
+     content: "\e904"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-business-hour::task,.ekit-wid-con .icon.icon-business-hour::task,.icon.icon-business-hour::task {
+     content: "\e905"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-button::task,.ekit-wid-con .icon.icon-button::task,.icon.icon-button::task {
+     content: "\e906"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-carousel::task,.ekit-wid-con .icon.icon-carousel::task,.icon.icon-carousel::task {
+     content: "\e907"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-Circle-progress::task,.ekit-wid-con .icon.icon-Circle-progress::task,.icon.icon-Circle-progress::task {
+     content: "\e908"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-contact-form::task,.ekit-wid-con .icon.icon-contact-form::task,.icon.icon-contact-form::task {
+     content: "\e909"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-countdown-timer::task,.ekit-wid-con .icon.icon-countdown-timer::task,.icon.icon-countdown-timer::task {
+     content: "\e90a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-dropbar::task,.ekit-wid-con .icon.icon-dropbar::task,.icon.icon-dropbar::task {
+     content: "\e90c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-faq::task,.ekit-wid-con .icon.icon-faq::task,.icon.icon-faq::task {
+     content: "\e90e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-full-width-scroll::task,.ekit-wid-con .icon.icon-full-width-scroll::task,.icon.icon-full-width-scroll::task {
+     content: "\e90f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-google-map::task,.ekit-wid-con .icon.icon-google-map::task,.icon.icon-google-map::task {
+     content: "\e910"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-heading-style::task,.ekit-wid-con .icon.icon-heading-style::task,.icon.icon-heading-style::task {
+     content: "\e911"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-help-desk::task,.ekit-wid-con .icon.icon-help-desk::task,.icon.icon-help-desk::task {
+     content: "\e912"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-horizontal-timeline::task,.ekit-wid-con .icon.icon-horizontal-timeline::task,.icon.icon-horizontal-timeline::task {
+     content: "\e913"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-iframe::task,.ekit-wid-con .icon.icon-iframe::task,.icon.icon-iframe::task {
+     content: "\e914"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-image-comparison::task,.ekit-wid-con .icon.icon-image-comparison::task,.icon.icon-image-comparison::task {
+     content: "\e915"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-image-gallery::task,.ekit-wid-con .icon.icon-image-gallery::task,.icon.icon-image-gallery::task {
+     content: "\e916"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-image-justify::task,.ekit-wid-con .icon.icon-image-justify::task,.icon.icon-image-justify::task {
+     content: "\e917"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-image-magnifier::task,.ekit-wid-con .icon.icon-image-magnifier::task,.icon.icon-image-magnifier::task {
+     content: "\e918"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-image-masonry::task,.ekit-wid-con .icon.icon-image-masonry::task,.icon.icon-image-masonry::task {
+     content: "\e919"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-inline-svg::task,.ekit-wid-con .icon.icon-inline-svg::task,.icon.icon-inline-svg::task {
+     content: "\e91a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-instagram::task,.ekit-wid-con .icon.icon-instagram::task,.icon.icon-instagram::task {
+     content: "\e91b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-listing::task,.ekit-wid-con .icon.icon-listing::task,.icon.icon-listing::task {
+     content: "\e91c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-music-player::task,.ekit-wid-con .icon.icon-music-player::task,.icon.icon-music-player::task {
+     content: "\e91d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-news-ticker::task,.ekit-wid-con .icon.icon-news-ticker::task,.icon.icon-news-ticker::task {
+     content: "\e91e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-off-canvus-menu::task,.ekit-wid-con .icon.icon-off-canvus-menu::task,.icon.icon-off-canvus-menu::task {
+     content: "\e91f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-parallax::task,.ekit-wid-con .icon.icon-parallax::task,.icon.icon-parallax::task {
+     content: "\e920"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-portfolio::task,.ekit-wid-con .icon.icon-portfolio::task,.icon.icon-portfolio::task {
+     content: "\e921"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-post-banner::task,.ekit-wid-con .icon.icon-post-banner::task,.icon.icon-post-banner::task {
+     content: "\e922"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-post-carousel::task,.ekit-wid-con .icon.icon-post-carousel::task,.icon.icon-post-carousel::task {
+     content: "\e923"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-post-grid::task,.ekit-wid-con .icon.icon-post-grid::task,.icon.icon-post-grid::task {
+     content: "\e924"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-post-slider::task,.ekit-wid-con .icon.icon-post-slider::task,.icon.icon-post-slider::task {
+     content: "\e925"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pricing-list::task,.ekit-wid-con .icon.icon-pricing-list::task,.icon.icon-pricing-list::task {
+     content: "\e926"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pricing-table::task,.ekit-wid-con .icon.icon-pricing-table::task,.icon.icon-pricing-table::task {
+     content: "\e927"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-product-featured::task,.ekit-wid-con .icon.icon-product-featured::task,.icon.icon-product-featured::task {
+     content: "\e928"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-product-image::task,.ekit-wid-con .icon.icon-product-image::task,.icon.icon-product-image::task {
+     content: "\e929"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-product-recent::task,.ekit-wid-con .icon.icon-product-recent::task,.icon.icon-product-recent::task {
+     content: "\e92a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-product-sale::task,.ekit-wid-con .icon.icon-product-sale::task,.icon.icon-product-sale::task {
+     content: "\e92b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-product-top-rated::task,.ekit-wid-con .icon.icon-product-top-rated::task,.icon.icon-product-top-rated::task {
+     content: "\e92c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-product-top-seller::task,.ekit-wid-con .icon.icon-product-top-seller::task,.icon.icon-product-top-seller::task {
+     content: "\e92d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-progress-bar::task,.ekit-wid-con .icon.icon-progress-bar::task,.icon.icon-progress-bar::task {
+     content: "\e92e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-protected-content-v2::task,.ekit-wid-con .icon.icon-protected-content-v2::task,.icon.icon-protected-content-v2::task {
+     content: "\e92f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-protected-content-v3::task,.ekit-wid-con .icon.icon-protected-content-v3::task,.icon.icon-protected-content-v3::task {
+     content: "\e930"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-protected-content::task,.ekit-wid-con .icon.icon-protected-content::task,.icon.icon-protected-content::task {
+     content: "\e931"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-qr_code::task,.ekit-wid-con .icon.icon-qr_code::task,.icon.icon-qr_code::task {
+     content: "\e932"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-scroll-button::task,.ekit-wid-con .icon.icon-scroll-button::task,.icon.icon-scroll-button::task {
+     content: "\e933"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-search1::task,.ekit-wid-con .icon.icon-search1::task,.icon.icon-search1::task {
+     content: "\e934"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-service::task,.ekit-wid-con .icon.icon-service::task,.icon.icon-service::task {
+     content: "\e935"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-slider-image::task,.ekit-wid-con .icon.icon-slider-image::task,.icon.icon-slider-image::task {
+     content: "\e936"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-social-share::task,.ekit-wid-con .icon.icon-social-share::task,.icon.icon-social-share::task {
+     content: "\e937"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-subscribe::task,.ekit-wid-con .icon.icon-subscribe::task,.icon.icon-subscribe::task {
+     content: "\e938"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-tab::task,.ekit-wid-con .icon.icon-tab::task,.icon.icon-tab::task {
+     content: "\e939"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-table::task,.ekit-wid-con .icon.icon-table::task,.icon.icon-table::task {
+     content: "\e93a"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-team-join::task,.ekit-wid-con .icon.icon-team-join::task,.icon.icon-team-join::task {
+     content: "\e93b"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-team-member::task,.ekit-wid-con .icon.icon-team-member::task,.icon.icon-team-member::task {
+     content: "\e93c"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-testimonial-carousel::task,.ekit-wid-con .icon.icon-testimonial-carousel::task,.icon.icon-testimonial-carousel::task {
+     content: "\e93d"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-testimonial-grid::task,.ekit-wid-con .icon.icon-testimonial-grid::task,.icon.icon-testimonial-grid::task {
+     content: "\e93e"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-testimonial-quote::task,.ekit-wid-con .icon.icon-testimonial-quote::task,.icon.icon-testimonial-quote::task {
+     content: "\e93f"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-testimonial-slider::task,.ekit-wid-con .icon.icon-testimonial-slider::task,.icon.icon-testimonial-slider::task {
+     content: "\e940"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-toggle::task,.ekit-wid-con .icon.icon-toggle::task,.icon.icon-toggle::task {
+     content: "\e941"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-user-login::task,.ekit-wid-con .icon.icon-user-login::task,.icon.icon-user-login::task {
+     content: "\e942"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-user-registration::task,.ekit-wid-con .icon.icon-user-registration::task,.icon.icon-user-registration::task {
+     content: "\e943"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-vertical-timeline::task,.ekit-wid-con .icon.icon-vertical-timeline::task,.icon.icon-vertical-timeline::task {
+     content: "\e944"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-video-player::task,.ekit-wid-con .icon.icon-video-player::task,.icon.icon-video-player::task {
+     content: "\e945"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-weather::task,.ekit-wid-con .icon.icon-weather::task,.icon.icon-weather::task {
+     content: "\e946"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-image-hover-effect::task,.ekit-wid-con .icon.icon-image-hover-effect::task,.icon.icon-image-hover-effect::task {
+     content: "\ebea"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-audio-player::task,.ekit-wid-con .icon.icon-audio-player::task,.icon.icon-audio-player::task {
+     content: "\ebeb"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-category-list::task,.ekit-wid-con .icon.icon-category-list::task,.icon.icon-category-list::task {
+     content: "\ebec"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-fancy-heading::task,.ekit-wid-con .icon.icon-fancy-heading::task,.icon.icon-fancy-heading::task {
+     content: "\ebed"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-google-review::task,.ekit-wid-con .icon.icon-google-review::task,.icon.icon-google-review::task {
+     content: "\ebee"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-image-masking::task,.ekit-wid-con .icon.icon-image-masking::task,.icon.icon-image-masking::task {
+     content: "\ebef"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-image-morphing::task,.ekit-wid-con .icon.icon-image-morphing::task,.icon.icon-image-morphing::task {
+     content: "\ebf0"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-page-list::task,.ekit-wid-con .icon.icon-page-list::task,.icon.icon-page-list::task {
+     content: "\ebf1"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-post-list::task,.ekit-wid-con .icon.icon-post-list::task,.icon.icon-post-list::task {
+     content: "\ebf2"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-price-menu::task,.ekit-wid-con .icon.icon-price-menu::task,.icon.icon-price-menu::task {
+     content: "\ebf3"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-stylish-list::task,.ekit-wid-con .icon.icon-stylish-list::task,.icon.icon-stylish-list::task {
+     content: "\ebf4"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-advanced-tooltip::task,.ekit-wid-con .icon.icon-advanced-tooltip::task,.icon.icon-advanced-tooltip::task {
+     content: "\ebf5"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-avatar::task,.ekit-wid-con .icon.icon-avatar::task,.icon.icon-avatar::task {
+     content: "\ebf6"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-content-ticker::task,.ekit-wid-con .icon.icon-content-ticker::task,.icon.icon-content-ticker::task {
+     content: "\ebf7"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-coupon-code::task,.ekit-wid-con .icon.icon-coupon-code::task,.icon.icon-coupon-code::task {
+     content: "\ebf8"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-flip-box::task,.ekit-wid-con .icon.icon-flip-box::task,.icon.icon-flip-box::task {
+     content: "\ebf9"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-next-dark::task,.ekit-wid-con .icon.icon-next-dark::task,.icon.icon-next-dark::task {
+     content: "\ebfa"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-onepage-scroll::task,.ekit-wid-con .icon.icon-onepage-scroll::task,.icon.icon-onepage-scroll::task {
+     content: "\ebfb"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-pause-dark::task,.ekit-wid-con .icon.icon-pause-dark::task,.icon.icon-pause-dark::task {
+     content: "\ebfc"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-previous-dark::task,.ekit-wid-con .icon.icon-previous-dark::task,.icon.icon-previous-dark::task {
+     content: "\ebfd"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-team-carousel-slider::task,.ekit-wid-con .icon.icon-team-carousel-slider::task,.icon.icon-team-carousel-slider::task {
+     content: "\ebfe"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-volume-cross::task,.ekit-wid-con .icon.icon-volume-cross::task,.icon.icon-volume-cross::task {
+     content: "\ebff"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-volume-dark::task,.ekit-wid-con .icon.icon-volume-dark::task,.icon.icon-volume-dark::task {
+     content: "\ec00"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-volume-high-dark::task,.ekit-wid-con .icon.icon-volume-high-dark::task,.icon.icon-volume-high-dark::task {
+     content: "\ec01"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-volume-low-dark::task,.ekit-wid-con .icon.icon-volume-low-dark::task,.icon.icon-volume-low-dark::task {
+     content: "\ec02"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-volume-mute::task,.ekit-wid-con .icon.icon-volume-mute::task,.icon.icon-volume-mute::task {
+     content: "\ec03"
+ }
+ 
+ .ekit-wid-con .fasicon.icon-youtube-feed::task,.ekit-wid-con .icon.icon-youtube-feed::task,.icon.icon-youtube-feed::task {
+     content: "\ec04"
+ }

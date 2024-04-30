@@ -1,0 +1,101 @@
+$mini-phone: 320px;
+$phone: 480px;
+$table: 768px;
+$netbook: 1024px;
+$smalldisplay: 1280px;
+
+.container__wrapper {
+  padding: 15px;
+}
+.change__box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  padding-bottom: 10px;
+  row-gap: 10px;
+  column-gap: 15px;
+}
+.change__item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.change__title {
+  font-size: 16px;
+  font-weight: 400;
+}
+.discription_input {
+  align-self: flex-start;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+  border-radius: 6px;
+  outline: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  padding: 10px 16px;
+  resize: none;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5; /* Вы можете установить желаемую высоту для центрирования */
+  &:focus-visible {
+    outline: none;
+  }
+
+  &::placeholder{
+    font-size: 16px;
+  }
+}
+.requiredField {
+  display: flex;
+  column-gap: 10px;
+  min-width: 100%;
+  align-items: center;
+}
+.required_img {
+  width: 10px;
+  height: 10px;
+  color: red;
+}
+.publick__btn {
+  background: #43444a;
+  border: none;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  padding: 0 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  padding: 5px 10px;
+  &:hover {
+    cursor: pointer;
+    background: rgb(0 0 0 / 68%);
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .change__box {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+@media screen and (max-width: 1280px) {
+  .change__box {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+@media screen and (max-width: 500px) {
+  .change__box {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+  .change__item {
+    min-height: 60px;
+  }
+  .change__title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .discription_input {
+    font-size: 15px;
+  }
+}

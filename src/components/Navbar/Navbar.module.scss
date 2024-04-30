@@ -1,0 +1,91 @@
+.navbar_wrapper {
+  display: flex;
+  padding: 20px 40px 20px 40px;
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 6px;
+  gap: 25px;
+  height: 60px;
+}
+.navbar_item{
+    font-weight: 600;
+    font-size: 16px;
+    color: #545c6a;
+    cursor:pointer;
+    &:hover{
+        color: #1058d0;
+        border-bottom:2px solid #1058d0 ;
+    }
+}
+.navbar_active {
+  color: #1058d0;
+  
+}
+.sliding_pane_header{
+  display: flex;
+  gap: 25px;
+  margin:15px 0 15px 0;
+}
+.btn {
+  
+    border-radius: 6px;
+    font-family: "Nunito", sans-serif;
+    color: #535b69;
+    background: #bbed21;
+    &:hover {
+      background: #d1f071;
+    }
+  
+}
+
+.kanban_wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.kanban_heading{
+  display: flex;
+  padding: 15px 0px;
+  gap: 30px;
+  border-bottom: 1px solid grey;
+}
+.kanban_nav{
+  display: flex;
+  background: #f9fafb;
+  color: #525C69;
+  width: 17%;
+  padding: 10px 15px;
+  gap: 15px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  p{
+    cursor: pointer;
+    &:hover{
+      color: black;
+      
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+ 
+  .sliding_pane_header{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  
+}
+
+.some_custom_class2{
+  position: relative;
+  z-index:55;
+  background: #FFFFFF4D !important;
+  backdrop-filter: blur(8px) !important;
+  
+  
+}
+.some_custom_overlay_class1 {
+  position: relative;
+  z-index: 55;
+  background: #FFFFFF4D !important;
+  backdrop-filter: blur(8px) !important;
+
+}

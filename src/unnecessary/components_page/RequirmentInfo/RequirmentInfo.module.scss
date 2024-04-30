@@ -1,0 +1,286 @@
+$table:860px;
+$phone:480px;
+
+
+.requirment_info_wrapper{
+  background-color: #fff;
+  border-radius: 20px;
+  max-width: 90%;
+  padding: 50px;
+}
+
+.requirment__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.wrapper_between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper_center {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper_end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.requirment__table {
+  border-collapse: collapse;
+  border-left: none !important;
+  display: flow-root;
+  overflow-x: auto;
+  th,
+  td {
+    padding: 3px 5px;
+    border: 1px solid #000;
+  }
+  th {
+    background-color: #dadbd6;
+  }
+  td {
+    input {
+      padding: 3px 5px;
+      display: block;
+      width: 100%;
+      font-size: 18px;
+      border: none;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+.m_20 {
+  margin: 30px 0;
+}
+
+.title__requir {
+  display: flex;
+  font-size: 32px;
+  font-weight: bold;
+  input {
+    margin: 0 0 0 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 32px;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.sup__table {
+  border: 1px solid black;
+  border-collapse: collapse;
+
+  th,
+  td {
+    padding: 3px 5px;
+    border: 1px solid #000;
+  }
+  th {
+    background-color: #dadbd6;
+  }
+}
+.sup__table__input {
+  padding: 3px 5px;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 0px;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+.okd {
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #000;
+  &:focus {
+    outline: none;
+  }
+}
+
+.add__input {
+  display:block;
+  border: 1px solid #dadbd6;
+  font-size: 16px;
+  color: #000;
+  padding: 5px 8px;
+  border-radius: 3px;
+  margin-right: 10px;
+  &:focus {
+    outline: none;
+  }
+}
+
+.add__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.confirm__wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.del {
+  border: none !important;
+  display: none;
+}
+.statement_footer {
+  display: flex;
+  justify-content: space-between;
+   padding: 30px 0px 0px 0px;
+   .btn1 {
+     margin-left: 20px;
+   border-radius: 10px;
+   border: 1px solid #c6cdd3;
+   font-family: "Nunito", sans-serif;
+   color: #535b69;
+   background: transparent;
+   &:hover {
+     background: #cfd4d8;
+   }
+   }
+ }
+ 
+   .btn2 {
+     border-radius: 10px;
+     margin-right: 20px;
+     font-family: "Nunito", sans-serif;
+     color: #535b69;
+     background: #bbed21;
+     &:hover {
+       background: #d1f071;
+     }
+ }
+ .all_checks{
+  display: flex;
+  gap: 30px;
+  flex-wrap:wrap ;
+}
+.pdf{
+  padding: 30px;
+  font-size: 14px;
+}
+
+.all_checks{
+  margin-top: 20px;
+}
+.btn_left_padding{
+  .btn1{ 
+    margin-right: 20px;
+  }
+}
+
+.some_custom_class1 {
+  background-image: url("../../../../../../../assets/img/air.jpg") !important;
+  transition: all 0.5s ease-in-out !important;
+  margin: 60vh auto;
+  
+}
+.some_custom_overlay_class1 {
+  transition: all 1s ease-in-out;
+  background-color: rgb(255 255 255 / 0%) !important;
+}
+
+.decline_form{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  .item_flex{
+    justify-content: flex-start;
+  }
+  .discription_input{
+    min-height: 217px;
+    resize: none;
+  }
+}
+.size{
+  width: 37px;
+  height: 37px;
+
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+}
+.flex{
+  padding: 0px 20px 10px 20px;
+  display: flex;
+  gap:10px;
+  flex-direction: column;
+}
+.item_flex{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+@media screen and (max-width: 1000px) {
+
+  .statement_footer{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: $table) {
+  .sup__table{
+    display: flow-root;
+  overflow-x: auto;
+}
+  .requirment_info_wrapper{
+    max-width: 100%;
+  }
+ .btn_left_padding{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .btn1{
+    margin-right: 0;
+    
+  }
+  .btn2{
+    margin-right: 0;
+    margin-left: 20px;
+  }
+ }
+
+  .wrapper_between{
+    flex-direction: column;
+  }
+  }
+  @media screen and (max-width: 600px) {
+
+    .discription_input{
+      min-height: 217px;
+      resize: none;
+    } 
+   
+  }
+  @media screen and (max-width: 480px) {
+.statement_footer{
+  .btn1{
+    margin: 0;
+  }
+  .btn2{
+    margin: 0;
+  }
+}
+
+  }
+  

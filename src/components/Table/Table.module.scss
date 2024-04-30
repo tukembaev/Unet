@@ -1,0 +1,44 @@
+.wrapper {
+  border: none;
+  font-size: 0.9em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  th {
+    text-align: left;
+  }
+
+  thead {
+    font-weight: bold;
+    color: #fff;
+    background: #b4e825;
+  }
+
+  td,
+  th {
+    padding: 1em 0.5em;
+    vertical-align: middle;
+  }
+
+  td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    
+  }
+  tbody {
+    background: #fff;
+    transition: 0.3s;
+    tr {
+        &:hover {
+            background: rgba($color: #000000, $alpha: 0.1);
+            cursor: pointer;
+        }
+      }
+  }
+  
+  a {
+    color: #73685d;
+  }
+}
+

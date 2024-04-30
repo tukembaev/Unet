@@ -1,0 +1,32 @@
+.item {
+  padding-top: 17px;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #80868e;
+  height: 48px;
+  border-top: 1px solid #eff1f3;
+  display: flex;
+  justify-content: space-between;
+  &:first-child {
+    border-top: 0;
+  }
+
+}
+.item_right {
+  padding-right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.item_index {
+  color: #000;
+  font-weight: 600;
+}
+.item_counter {
+  font-weight: 600;
+  color: red;
+  width: 21px;
+  text-align: center;
+  height: 19px;
+  border-radius: 50%;
+}

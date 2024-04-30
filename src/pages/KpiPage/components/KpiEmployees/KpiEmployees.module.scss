@@ -1,0 +1,76 @@
+.employees_wrapper{
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    border-radius: 6px;
+    color: black;
+    width: 100%;
+}
+.kpi__body {
+    padding: 15px;
+    overflow-x: auto;
+  }
+  .table__row {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 20px;
+    cursor: pointer;
+  }
+  .table__body .table__row {
+    border-top: 1px solid #c8cbd2;
+  }
+  .head__item {
+    width: 200px;
+    p {
+      text-align: left;
+      padding: 16px 24px 16px 24px;
+    }
+  }
+  .head__name {
+    width: 320px;
+    p {
+      text-align: left;
+      padding: 16px 24px 16px 0;
+    }
+  }
+  .body__item {
+    width: 200px;
+    align-self: flex-start;
+    p {
+      text-align: left;
+      padding: 16px 24px 16px 24px;
+    }
+  }
+  .body__name {
+    width: 320px;
+    p {
+      text-align: left;
+      padding: 16px 24px 16px 0;
+    }
+  }
+  .size {
+    width: 30px;
+    height: 30px;
+    border-radius: 45%;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.2);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  .kpi__person {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+
+
+  @media all and (max-width:  1000px){
+    .table__row{
+      width: 1000px;
+    }
+  }

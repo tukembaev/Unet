@@ -1,0 +1,212 @@
+.kpi_wrapper {
+    background: #fff;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+  .kpi_head {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 15px;
+  }
+  .kpi_title {
+    display: flex;
+    column-gap: 20px;
+    h1 {
+      font-size: 30px;
+      font-weight: 400;
+    }
+    button {
+      height: 32px;
+      min-width: 81px;
+      margin-top: 5px;
+      background: #43444A;
+      border: none;
+      color: white;
+      text-transform: none;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+      font-size: 14px;
+      border-radius: 6px;
+      transition: 0.3s;
+      float: right;
+      &:hover {
+        cursor: pointer;
+        background: rgba(44, 44, 44, 0.68);
+      }
+    }
+  }
+  .kpi_score {
+    h3 {
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+  
+  .kpi_body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  
+  .kpi {
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    border-radius: 6px;
+    color: black;
+    width: 100%;
+  }
+  
+  .kpi__body {
+    padding: 15px;
+  }
+  .item__footer {
+    padding: 15px;
+    span {
+      font-size: 18px;
+      font-weight: 400;
+      display: block;
+    }
+  }
+  .size {
+    width: 30px;
+    height: 30px;
+    border-radius: 45%;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.2);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  .kpi_content{
+    padding: 10px;
+  }
+  .kpi_btns{
+    padding: 0px 15px;
+  }
+  .btn_1{
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #43444a;
+    border-top-left-radius: 6px;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    transition: 0.3s;
+    &:hover {
+      cursor: pointer;
+      background: rgba(44, 44, 44, 0.68);
+    }
+  }
+  .btn_1_active{
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4b84f4;
+    color: #fff;
+    border-top-left-radius: 6px;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  .btn_2{
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #43444a;
+    border-top-right-radius: 6px;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    transition: 0.3s;
+    &:hover {
+      cursor: pointer;
+      background: rgba(44, 44, 44, 0.68);
+    }
+  }
+  .btn_2_active{
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4b84f4;
+    color: #fff;
+    border-top-right-radius: 6px;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  .kpi_item_wrapper{
+    // border: 1px solid #595555;
+    padding: 10px;
+    // background-color:#D3D3D3;
+    border-radius: 6px;
+  }
+  .kpi_item{
+    border-radius: 6px;
+    padding: 10px 0;
+    background: #fff;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .kpi_btns{
+      padding: 0;
+    }
+    .btn_1{
+      padding: 10px;
+    }
+    
+    .btn_2{
+      padding: 10px;
+    }
+   
+    .kpi_content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .kpi_item_wrapper{
+      min-width: 286px;
+      width: 100%;
+    }
+    .kpi_head {
+      flex-direction: column;
+      row-gap: 10px;
+    }
+    .kpi_title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      row-gap: 10px;
+    }
+    .kpi_score {
+      h3 {
+        padding: 0;
+        font-size: 18px;
+      }
+    }
+    .kpi {
+      overflow-x: auto;
+    }
+    .kpi__body {
+      width: 1000px;
+    }
+  }

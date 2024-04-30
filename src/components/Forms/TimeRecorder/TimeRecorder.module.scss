@@ -1,0 +1,81 @@
+.time_recorder_wrapper{
+    margin-left: 20px;
+    padding: 15px 15px;
+    background: rgba(255, 255, 255, 0.76);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 6px;
+    width: 30%;
+}
+.btn_start{
+    display: inline-flex;
+    gap: 5px;
+    background: #43444a;
+    border: none;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+padding: 10px 18px 10px 0;
+cursor: pointer;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: 0.3s;  
+    margin-bottom: 17px;
+}
+.btn_pause{
+    display: inline-flex;
+    gap: 5px;
+    background: #8E8E8E;
+    border: none;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+padding: 10px 18px 10px 0;
+cursor: pointer;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: 0.3s;  
+    margin-bottom: 17px;
+}
+.btn_stop{
+    display: inline-flex;
+    gap: 5px;
+    background: rgba(219, 32, 32, 0.64);
+    border: none;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+padding: 10px 18px 10px 0;
+cursor: pointer;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: 0.3s;  
+    margin-bottom: 17px;
+}
+.task_card{
+    border-radius: 6px;
+background: #F1F1F1;
+border: 1px solid #fff;
+
+padding: 8px 10px;
+
+}
+
+.task_card{
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1080px) {
+  
+    .time_recorder_wrapper{
+        width: 94%;
+    }
+  
+   }
+  
+  
+   

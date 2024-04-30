@@ -1,0 +1,105 @@
+.wrapper {
+    background-color: rgba(94, 136, 160, 0);
+    width: 100%;
+    height: 500px;
+
+}
+
+.formBuilder {
+    width: 710px;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.header_title{
+    border-radius: 10px;
+    padding:  12px 15px 20px 15px;
+    border: 1px solid rgb(218,220,224);
+    border-top: 4px solid  rgb(103, 58, 183);
+    background-color: white;
+   
+
+}
+.header_title2{
+    border-radius: 10px;
+    padding:  12px 15px 20px 15px;
+    border: 1px solid rgb(218,220,224);
+    border-top: 4px solid  rgb(103, 58, 183);
+    border-left: 4px solid #007bff;
+    background-color: white;
+
+}
+
+
+.question_block{
+    border-radius: 10px;
+    padding:  12px 15px 20px 15px;
+    border: 1px solid rgb(218,220,224);
+    
+    background-color: white;
+
+}
+
+.title_inp {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(218,220,224);
+    width: 100%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+    
+}
+.title_inp:focus {
+    outline: none;
+    border: none;
+    border-color: #007bff;
+    border-bottom: 1px solid rgb(103, 58, 183); 
+    background-color: rgb(234 233 241 / 49%);
+
+}
+.question_title_inp{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(218,220,224);
+    width: 40%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    resize: none;
+}
+
+.question_title_inp:focus{
+    outline: none;
+    border: none;
+    border-color: #007bff;
+    border-bottom: 1px solid rgb(103, 58, 183); 
+    background-color: rgb(234 233 241 / 49%);
+
+}
+
+.descr_inp{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(218,220,224);
+    width: 100%;
+    font-size: 15px;
+    color: grey;
+    resize: none;
+
+}
+
+.descr_inp:focus{
+    outline: none;
+    border: none;
+    border-color: #007bff;
+    border-bottom: 1px solid rgb(103, 58, 183); 
+    background-color: rgb(234 233 241 / 49%);
+
+}

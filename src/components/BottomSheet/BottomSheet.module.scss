@@ -1,0 +1,23 @@
+.bottomSheetClosed {
+  transition: all 0.5s ease;
+}
+
+.bottomSheetOpen {
+  transition: all 0.5s ease;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  height: 8%;
+  background-color: rgba(128, 128, 128, 0.7);
+  border-bottom: 1px solid black;
+}
+.body {
+  padding: 5px;
+  background-color: rgba(128, 128, 128, 0.7);
+}
+.img {
+  width: 20px;
+  cursor: pointer;
+}

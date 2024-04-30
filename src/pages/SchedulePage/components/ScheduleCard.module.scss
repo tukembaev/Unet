@@ -1,0 +1,48 @@
+.card_wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 6px;
+    gap:15px;
+}
+.card_header{
+    display: flex;
+    justify-content: space-between;
+}
+.schedule_wrapper{
+    padding: 10px;
+    border-radius: 6px;
+    background-color:#D3D3D3;
+    width: 100%;
+}
+
+.card_footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+// border
+.lexis{
+    border: 5px solid green;
+}
+.practice{
+    border: 5px solid rgb(20, 56, 164);
+
+}
+.laboratory{
+    border: 5px solid ;
+    color: blueviolet;
+}
+.default{
+    border: 5px solid gray;
+}
+@media screen and (max-width: 480px) {
+    .card__title{
+        font-size: 25px;
+    }
+    .card__text{
+        font-size: 20px;
+    }
+  }
+

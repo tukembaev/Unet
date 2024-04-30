@@ -1,0 +1,44 @@
+$table:860px;
+$phone:480px;
+$netbook:1086px;
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    border-radius: 5px;
+    th,
+    td {
+      padding: 3px 5px;
+      border: 1px solid #000;
+    }
+    th {
+      background-color: #dadbd6;
+    }
+    td {
+      input {
+        padding: 3px 5px;
+        display: block;
+        width: 100%;
+        font-size: 18px;
+        border: none;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: $table) {
+  
+    .table{
+   
+      display: flow-root;
+      overflow: auto;
+    }
+     
+   
+  }
+  
+ 

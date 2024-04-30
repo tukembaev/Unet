@@ -1,0 +1,253 @@
+.publick {
+    border: 1px solid rgb(86, 84, 84);
+    border-radius: 6px;
+  }
+  .publick__head {
+    padding: 15px;
+    border-bottom: 1px solid #b3c3cb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .publick__body {
+    padding: 15px;
+    border-bottom: 1px solid #b3c3cb;
+  }
+  .publick__body__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .publick__foot {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .publick__source {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  
+  .card_body_more {
+    border-top: 1px solid #b3c3cb;
+  
+    background-color: #ebebeb;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card_footer_members {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  .size {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.1);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  .size2 {
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.5);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  .titile__wrapper {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .size {
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.2);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  .publick__btn {
+    width: 100px;
+    background: rgba(0, 0, 0, 0.44);
+    border: none;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    padding: 0 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+    padding: 5px 10px;
+    &:hover {
+      cursor: pointer;
+      background: rgb(0 0 0 / 68%);
+    }
+  }
+  .input__container {
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 6px;
+    padding: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    column-gap: 20px;
+  }
+  .discription_input {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    color: #000;
+    padding: 10px 16px;
+    resize: none;
+    font-family: "Nunito", sans-serif;
+    &:focus-visible {
+      outline: none;
+    }
+    min-width: 200px;
+  }
+  .discription_input__link {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000;
+    padding: 10px 16px;
+    overflow-y: auto;
+    max-height: 100px;
+    resize: none;
+    font-family: "Nunito", sans-serif;
+    &:focus-visible {
+      outline: none;
+    }
+  }
+  .publick__authors {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    img {
+      margin-left: 5px;
+    }
+  }
+  
+  .rejected_publick {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    p {
+      background-color: red;
+      color: white;
+      border-radius: 6px;
+      padding: 2px 10px;
+    }
+    button {
+      padding: 2px 10px;
+      background: rgb(0 0 0 / 44%);
+      border: none;
+      color: white;
+      text-transform: none;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+      font-size: 14px;
+      border-radius: 6px;
+      transition: 0.3s;
+      float: right;
+      &:hover {
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.68);
+      }
+    }
+  }
+  
+  .expecting_puclick {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    p {
+      background-color: orange;
+      color: white;
+      border-radius: 6px;
+      padding: 2px 10px;
+    }
+    button {
+      padding: 2px 10px;
+      background: rgb(0 0 0 / 44%);
+      border: none;
+      color: white;
+      text-transform: none;
+      font-weight: bold;
+      font-family: "Nunito", sans-serif;
+      font-size: 14px;
+      border-radius: 6px;
+      transition: 0.3s;
+      float: right;
+      &:hover {
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.68);
+      }
+    }
+  }
+  .publick_files{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    gap: 10px;
+  }
+  @media screen and (max-width: 780px) {
+    .card_footer_members {
+      flex-wrap: wrap;
+      row-gap: 10px;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    .publick__foot {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+    }
+    .publick__source {
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 10px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .card_footer_members {
+      flex-direction: column;
+      row-gap: 10px;
+      align-items: flex-start;
+    }
+    .publick__head {
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 5px;
+    }
+  }
+  

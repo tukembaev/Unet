@@ -1,0 +1,287 @@
+.body_left {
+  width: 399px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #eee;
+  margin-top: 10px;
+  height: 760px;
+
+}
+.hidden_left {
+  width: 399px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #eee;
+  height: 768px;
+
+ 
+  
+}
+.left_title {
+  font-size: 30px;
+  color: black;
+  padding: 12px;
+}
+
+.left_header {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+
+}
+.dateSeparator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.divider::task,
+.divider::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #000; /* Цвет линии (замените на желаемый цвет) */
+}
+
+.divider span {
+  margin: 0 10px; /* Отступы между текстом и линией (по желанию) */
+}
+
+.menuBtn {
+  display: none;
+}
+
+.search_form {
+  background-color: grey;
+  border: none;
+  border-radius: 15px;
+}
+.body_right {
+  width: 80%;
+  padding-inline: 20px;
+  position: relative;
+}
+.hidden {
+  width: 80%;
+  padding-inline: 20px;
+  position: relative;
+}
+
+.right_header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-inline: 10px;
+}
+
+.user_list {
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+  overflow-y: auto;
+
+}
+
+.selectedUser {
+  cursor: pointer;
+  display: flex;
+  background-color: #EEE; /* Например, измените фон */
+  color: #333; /* Например, измените цвет текста */
+}
+
+.employee_name {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 17px;
+ 
+}
+.last_message{
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 13px;
+  font-style: normal;
+}
+
+.send {
+  width: 40px;
+  height: 40px;
+  margin-top: 11px;
+  margin-left: 10px;
+}
+
+.sent {
+  display: flex;
+  padding: 12px 18px 6px 18px;
+  align-self: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4px;
+  border-radius: 16px;
+  background: #f4f4f7;
+  width: 210px;
+  p{
+    max-width: 190px;
+    word-wrap: break-word;
+   }
+ 
+}
+
+.dateSeparator {
+  align-items: center;
+  align-self: center;
+}
+
+.replies {
+  background: #f4f4f7;
+  display: flex;
+  padding: 12px 18px 6px 18px;
+  align-self: flex-start;
+  flex-direction: column;
+  gap: 4px;
+  border-radius: 16px;
+  width: 210px;
+ p{
+  max-width: 190px;
+  word-wrap: break-word;
+ }
+}
+
+form {
+  position: relative;
+
+  margin: 0 auto;
+}
+.d1 {
+  background: #eee;
+  border-radius: 10px;
+  margin-inline: 10px;
+}
+.d1 input {
+  width: 100%;
+  height: 42px;
+  padding-left: 50px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  outline: none;
+  background:#eee;
+  color: #9e9c9c;
+}
+.d1 button {
+  position: absolute;
+  border-radius: 12px;
+  top: 0;
+  left: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: #eee;
+ 
+  cursor: pointer;
+}
+.d1 button:task {
+  content: " ";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  // background-image: url("../../assets/icons/free-icon-font-search-3917132.png");
+  background-size: cover;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+	.plus_icon{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(119, 119, 119, 0.53);
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.message_date{
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px; 
+}
+
+.input {
+  position: relative;
+  border: none;
+  border-radius: 6px;
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 0 0 18px;
+  width: 95%;
+  height: 39px;
+  color: white;
+  margin-top: 13px;
+  font-size: 13px;
+  line-height: 37px;
+  resize: none;
+  background: grey;
+
+  margin-left: 15px;
+
+  outline: none;
+}
+
+.input::placeholder {
+  color: white;
+}
+
+.hidden3 {
+  display: none;
+}
+
+.formsong {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  left: 10px;
+  display: flex;
+}
+.messages {
+  height: 620px;
+  overflow-y: auto;
+}
+@media all and (max-width: 900px) {
+  .body_left {
+    width: 100%;
+    border-right: none;
+  }
+  .left_title {
+    padding-block: 0;
+  }
+  .left_header{
+    margin-bottom: 5px;
+  }
+  .body_right {
+    display: none;
+  }
+  .hidden {
+    display: block;
+    width: 100%;
+    padding: 10px;
+  }
+  .right_header {
+    padding: 0;
+  }
+
+  .hidden_left {
+    display: none;
+  }
+  .menuBtn {
+    display: block;
+  }
+  .optionsBtn {
+    display: none;
+  }
+  .input{
+    margin-left: 0 ;
+  }
+}

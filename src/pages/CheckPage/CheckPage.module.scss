@@ -1,0 +1,63 @@
+.headnav {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.pdfwindow {
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  margin-top: 2rex;
+  // align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 35px;
+}
+
+.shareButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  width: 250px;
+  margin-top: 25px;
+  background-color: #4f5fcd;
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: 0px 0px 15px 0px #4f60cdaa;
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-inline-start: 5px;
+  padding-right: 5px;
+}
+@media (max-width: 480px) {
+  .firstli,
+  .secondli,
+  .thirdli {
+    display: block;
+    margin-left: 20px;
+    width: 80%;
+  }
+  .firstpart,
+  .lastpart {
+    margin-left: 0px;
+    padding: 1em;
+    width: 100%;
+    border: none;
+    border-radius: 24px;
+    border-width: 0.5px;
+    box-shadow: 0px 0px 15px 0px #4f60cdaa;
+    display: block;
+  }
+}
+
+.gifof3column {
+  width: 8em;
+}

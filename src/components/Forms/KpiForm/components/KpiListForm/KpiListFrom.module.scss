@@ -1,0 +1,106 @@
+.list_wrapper{
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 6px;
+    padding: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    gap: 20px;
+}
+.qr_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.qr_controls {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    align-self: flex-start;
+  }
+  .qr_btn {
+    padding: 10px 15px;
+    background: #43444a;
+    border: none;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+    float: right;
+    &:hover {
+      cursor: pointer;
+      background: rgba(44, 44, 44, 0.68);
+    }
+  }
+
+  .required_img {
+    width: 10px;
+    height: 10px;
+    color: red;
+  }
+  .list_inputs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .list_btn{
+    background: #43444a;
+    max-width: 100px;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+    &:hover {
+      cursor: pointer;
+      background: rgba(44, 44, 44, 0.68);
+    }
+  }
+  .list_body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .category_list{
+    display: flex;
+  flex-direction: column;
+  gap: 15px;
+  }
+  .position_card{
+    padding: 10px;
+  
+    
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 6px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .position_card__first{
+    display: flex;
+    column-gap: 25px;
+  }
+  @media screen and (max-width: 480px) {
+    .qr_head {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 20px;
+      .qr_btn {
+        width: 100%;
+      }
+    }
+  }

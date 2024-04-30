@@ -1,0 +1,91 @@
+// list 
+.list_wrapper{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.list_more{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+.list_btn{
+    background: #43444a;
+    border: none;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    padding: 0 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+    padding: 5px 10px;
+    &:hover {
+      cursor: pointer;
+      background: rgb(0 0 0 / 68%);
+    }
+}
+.rest_list{
+    padding: 0 20px;
+}
+.list_btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.empty{
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+// table
+.table__wrapper {
+    border-radius: 6px;
+    width: 100%;
+    border-spacing: 0;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+  
+    thead th span {
+        color: #000000;
+        font-weight:400;
+        font-size: 14px;
+    }
+  }
+
+  .table__head .table__row {
+    background-color: #f6f8f9;
+  }
+  .table__head .table__item {
+    text-align: left;
+    padding: 16px 24px 16px 24px;
+  }
+   .table__row {
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #eaecf0;
+  }
+  .table__body .table__item {
+    text-align: left;
+    padding: 16px 24px 16px 24px;
+    font-size: 16px;
+    max-width: 250px;
+    word-wrap: break-word;
+    border-bottom: 1px solid #eee;
+  }
+  .table__title {
+    color: #000000;
+    font-weight:400;
+    font-size: 14px;
+  }
+  @media screen and (max-width: 1400px) {
+    .list_table{
+      overflow-x: auto;
+    }
+    .table__wrapper{
+      width: 1200px;
+    }
+    .list_more{
+      padding: 0;
+    }
+  }

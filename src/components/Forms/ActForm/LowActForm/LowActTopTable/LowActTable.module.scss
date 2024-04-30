@@ -1,0 +1,42 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    border-radius: 5px;
+    th,
+    td {
+    
+      border: 1px solid #000;
+    }
+    th {
+      background-color: #dadbd6;
+    }
+    td {
+      input {
+        padding: 3px 5px;
+        display: block;
+        width: 100%;
+        font-size: 18px;
+        border: none;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+
+.actions__td {
+    border-left: none !important;
+    border-right: none !important;
+    border: none !important;
+    width: 50px;
+    
+}
+.btns{
+  border-left: none !important;
+  border-right: none !important;
+  border: none !important;
+  display: flex;
+  gap: 5px;
+}

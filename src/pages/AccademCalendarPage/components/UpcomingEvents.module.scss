@@ -1,0 +1,49 @@
+$mini-phone: 320px;
+$phone: 480px;
+$table: 768px;
+$netbook: 1024px;
+$smalldisplay: 1280px;
+
+.upcoming_wrapper {
+  background: #ffffff;
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+  // border-radius: 18px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  overflow-y: scroll;
+  height: 600px;
+}
+.event {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #2bc760;
+  gap: 100px;
+  width: 100%;
+  p {
+    padding-top: 15px;
+    min-width: 150px;
+  }
+}
+.event_color {
+  width: 42px;
+  height: 6px;
+
+  border-radius: 6px;
+  margin-top: 7px;
+}
+
+@media screen and (max-width: 1200px) {
+  .upcoming_wrapper {
+    width: 100%;
+  }
+}
+@media screen and (max-width: $phone) {
+  .event {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}

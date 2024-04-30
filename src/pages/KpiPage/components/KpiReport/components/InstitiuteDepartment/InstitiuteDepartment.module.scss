@@ -1,0 +1,44 @@
+.department_wrapper {
+  background: #fff;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.department_close {
+  button {
+    height: 32px;
+    min-width: 81px;
+    margin-top: 5px;
+    background: #43444A;
+    border: none;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+    &:hover {
+      cursor: pointer;
+      background: rgba(0, 0, 0, 0.68);
+    }
+  }
+}
+.department_parent {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.department_child {
+  padding: 10px;
+  border-bottom: 1px solid #eee ;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: #e0e0e0;
+  }
+}
